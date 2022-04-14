@@ -223,9 +223,16 @@ def get_shrec20_folder(resolution):
         folder_path = os.path.join(data_folder_shrec20, "sub_" + str(resolution))
     return folder_path
 
+def get_smal_folder(resolution):
+    if resolution is None:
+        folder_path = os.path.join(data_folder_smal, "full")
+    else:
+        folder_path = os.path.join(data_folder_smal, "sub_" + str(resolution))
+    return folder_path
+
 
 class Faust_remeshed_train(ShapeDatasetCombine):
-    def __init__(self, resolution, num_shapes=39, load_dist_mat=False, load_sub=False):
+    def __init__(self, resolution, num_shapes=80, load_dist_mat=False, load_sub=False):
         self.resolution = resolution
         super().__init__(get_faust_remeshed_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 
@@ -234,7 +241,7 @@ class Faust_remeshed_train(ShapeDatasetCombine):
 
 
 class Faust_remeshed_test(ShapeDatasetCombine):
-    def __init__(self, resolution, num_shapes=10, load_dist_mat=False, load_sub=False):
+    def __init__(self, resolution, num_shapes=20, load_dist_mat=False, load_sub=False):
         self.resolution = resolution
         super().__init__(get_faust_remeshed_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 

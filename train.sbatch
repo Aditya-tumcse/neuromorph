@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name="Neuromorph_training_FAUST"
-#SBATCH --nodes=5
-#SBATCH --cpus-per-task=6
+#SBATCH --nodes=2
+#SBATCH --cpus-per-task=5
 #SBATCH --gres=gpu:3,VRAM:12G
 #SBATCH --mem=5G
 #SBATCH --time=0:05:00

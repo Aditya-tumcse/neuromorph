@@ -13,10 +13,11 @@ path_curr = str(pathlib.Path(__file__).parent.absolute())
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device_cpu = torch.device('cpu')
 
-data_folder_faust_remeshed = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/Faust_remeshed_aligned"
+#data_folder_faust_remeshed = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/Faust_remeshed_aligned"
 # data_folder_mano_right = "data/meshes/MANO_right/mat"
 # data_folder_mano_test = "data/meshes/MANO_test/mat"
 #data_folder_shrec20 = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SHREC20/mat"
+data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
 
 chkpt_folder = "data/checkpoint"
 data_folder_out = "data/out"

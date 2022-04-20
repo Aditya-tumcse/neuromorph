@@ -1,11 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name="Neuromorph_training_FAUST"
-#SBATCH --nodes=2
-#SBATCH --cpus-per-task=5
-#SBATCH --gres=gpu:5,VRAM:24G
-#SBATCH --mem=32G
-#SBATCH --time=0:05:00
 #SBATCH --mail-type=ALL
-#SBATCH --output=/storage/slurm/logs/slurm-%j.out
-#SBATCH --error=/storage/slurm/logs/slurm-%j.out
-srun python main_train.py
+#SBATCH --job-name=neuromorph_SMAL
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=168:00:00
+
+module load cuda/11.3
+cd /usr/stud/srinivaa/code/neuromorph/
+srun -u /usr/stud/srinivaa/anaconda3/envs/neuromorph/bin/python3 /usr/stud/srinivaa/code/neuromorph/main_train.py

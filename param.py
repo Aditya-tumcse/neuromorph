@@ -17,7 +17,8 @@ device_cpu = torch.device('cpu')
 # data_folder_mano_right = "data/meshes/MANO_right/mat"
 # data_folder_mano_test = "data/meshes/MANO_test/mat"
 #data_folder_shrec20 = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SHREC20/mat"
-data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
+#data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
+data_folder_smal_aligned = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/aligned_preprocessed"
 
 chkpt_folder = "data/checkpoint"
 data_folder_out = "data/out"

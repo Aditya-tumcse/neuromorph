@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from utils.arap_interpolation import *
 from data.data import *
 from model.layers import *
+import wandb
 
 
 class NetParam(ParamBase):
@@ -198,6 +199,8 @@ class InterpolNet:
 
     def train(self):
         print("start training ...")
+
+        wandb.init(project="Neuromorph_FAUST_Aligned") #Initialize a new wandb run
 
         self.interp_module.train()
 

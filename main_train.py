@@ -6,6 +6,7 @@
 from model.interpolation_net import *
 from utils.arap_interpolation import *
 from data.data import *
+import wandb
 
 
 class HypParam(ParamBase):
@@ -111,7 +112,7 @@ def start_train(dataset, dataset_val=None, folder_weights_load=None):
 
 def train_main():
     hyp_param = HypParam()
-    print("Printed hyperparametres:",hyp_param)
+
     # SMAL:
     dataset = create_dataset(
         Smal_train,
@@ -132,6 +133,6 @@ def train_main():
 
     start_train(dataset, dataset_val)
 
-
 if __name__ == "__main__":
+    wandb.login()
     train_main()

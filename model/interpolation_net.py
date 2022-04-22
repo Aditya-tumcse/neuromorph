@@ -253,6 +253,7 @@ class InterpolNet:
                     torch.cuda.memory_reserved(0) // (1024 ** 2),
                 )
             )
+            wandb.log({'Train_Loss': tot_loss,'arap': tot_loss_comp[0]})
 
             if self.time_stamp is not None:
                 if (self.i_epoch + 1) % self.interp_module.param.log_freq == 0:

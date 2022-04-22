@@ -17,7 +17,7 @@ class NetParam(ParamBase):
         super().__init__()
         self.lr = 1e-4
         self.num_it = 600
-        self.batch_size = 16
+        self.batch_size = 2
         self.num_timesteps = 0
         self.hidden_dim = 128
         self.lambd = 1

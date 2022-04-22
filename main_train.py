@@ -111,7 +111,7 @@ def start_train(dataset, dataset_val=None, folder_weights_load=None):
 
 def train_main():
     hyp_param = HypParam()
-    print(hyp_param)
+    print("Printed hyperparametres:",hyp_param)
     # SMAL:
     dataset = create_dataset(
         Smal_train,

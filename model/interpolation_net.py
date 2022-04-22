@@ -23,8 +23,8 @@ class NetParam(ParamBase):
         self.lambd = 1
         self.lambd_geo = 50
 
-        self.log_freq = 10
-        self.val_freq = 10
+        self.log_freq = 2
+        self.val_freq = 2
 
         self.log = True
 

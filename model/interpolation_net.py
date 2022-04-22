@@ -253,7 +253,7 @@ class InterpolNet:
                     torch.cuda.memory_reserved(0) // (1024 ** 2),
                 )
             )
-            wandb.log({'Train_Loss': tot_loss,'arap': tot_loss_comp[0]})
+
 
             if self.time_stamp is not None:
                 if (self.i_epoch + 1) % self.interp_module.param.log_freq == 0:
@@ -262,7 +262,8 @@ class InterpolNet:
                     self.test(self.dataset_val)
 
             self.i_epoch += 1
-
+        print(self.i_epoch)
+        #wandb.log({'Train_Loss': tot_loss, 'ARAP_Loss': tot_loss_comp[0], 'Regularizer_Loss': tot_loss_comp[1],'Geodesic_Loss': tot_loss_comp[2]})
     def test(self, dataset, compute_val_loss=True):
         test_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
         shape_x_out = []
@@ -293,6 +294,7 @@ class InterpolNet:
 
         if compute_val_loss:
             print("Validation loss = ", tot_loss_val)
+            #wandb.log({"Validation_Loss":tot_loss_val}) #Log the validation loss into wandb
 
         return shape_x_out, shape_y_out, points_out
 

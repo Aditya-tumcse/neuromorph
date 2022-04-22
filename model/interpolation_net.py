@@ -32,7 +32,6 @@ class InterpolationModBase(torch.nn.Module):
     def __init__(self, interp_energy: InterpolationEnergy):
         super().__init__()
         self.interp_energy = interp_energy
-        print("Uses InterpolationModBase for Interpolation ModGeoEC")
 
     def get_pred(self, shape_x, shape_y):
         raise NotImplementedError()

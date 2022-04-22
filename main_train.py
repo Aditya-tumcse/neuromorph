@@ -115,7 +115,7 @@ def train_main():
 
     # SMAL:
     dataset = create_dataset(
-        Faust_remeshed_train,
+        Smal_train,
         2000,
         None,
         hyp_param.load_dist_mat,
@@ -123,7 +123,7 @@ def train_main():
         hyp_param.load_sub,
     )
     dataset_val = create_dataset(
-        Faust_remeshed_test,
+        Smal_test,
         2000,
         None,
         hyp_param.load_dist_mat,

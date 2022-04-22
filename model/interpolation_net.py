@@ -17,13 +17,13 @@ class NetParam(ParamBase):
         super().__init__()
         self.lr = 1e-4
         self.num_it = 600
-        self.batch_size = 2
+        self.batch_size = 16
         self.num_timesteps = 0
         self.hidden_dim = 128
         self.lambd = 1
         self.lambd_geo = 50
 
-        self.log_freq = 2
+        self.log_freq = 10
         self.val_freq = 2
 
         self.log = True
@@ -260,10 +260,12 @@ class InterpolNet:
                     self.save_self()
                 if (self.i_epoch + 1) % self.interp_module.param.val_freq == 0:
                     self.test(self.dataset_val)
-
+                    wandb.log(
+                        {'Train_Loss': tot_loss, 'ARAP_Loss': tot_loss_comp[0], 'Regularizer_Loss': tot_loss_comp[1],
+                         'Geodesic_Loss': tot_loss_comp[2]})
             self.i_epoch += 1
-        print(self.i_epoch)
-        #wandb.log({'Train_Loss': tot_loss, 'ARAP_Loss': tot_loss_comp[0], 'Regularizer_Loss': tot_loss_comp[1],'Geodesic_Loss': tot_loss_comp[2]})
+
+
     def test(self, dataset, compute_val_loss=True):
         test_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
         shape_x_out = []

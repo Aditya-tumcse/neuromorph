@@ -6,7 +6,8 @@
 import random
 import torch.utils.data
 import scipy.io
-from utils.shape_utils import *
+#from utils.shape_utils import *
+from neuromorph.utils.shape_utils import *
 
 
 def input_to_batch(mat_dict):

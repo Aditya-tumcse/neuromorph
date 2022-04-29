@@ -300,3 +300,6 @@ class Smal_test(ShapeDatasetCombine):
 
 if __name__ == "__main__":
     print("main of data.py")
+    data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
+    data = Smal_train(resolution=2000, load_dist_mat=True, load_sub=True)
+    print(data)

@@ -163,7 +163,7 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
 
         idx_arr_x = self.idx_arr_arr[i1] #Vertices of X
         idx_arr_y = self.idx_arr_arr[i2] #Verices of Y
-        print(idx_arr_x)
+
         triv_arr_x = self.triv_arr_arr[i1]
         triv_arr_y = self.triv_arr_arr[i2]
 
@@ -305,4 +305,4 @@ if __name__ == "__main__":
     data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
     data = Smal_train(resolution=2000, load_dist_mat=True, load_sub=True)
     remeshed_data = ShapeDatasetCombineRemesh(data)
-    print(remeshed_data.__getitem__(0))
+    print(remeshed_data)

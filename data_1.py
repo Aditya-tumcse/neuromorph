@@ -145,7 +145,7 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
 
         for i in range(self.dataset.num_shapes):
             remesh_file = self._get_file_from_folder(self.dataset._get_index(i), os.path.join(self.dataset.folder_path, self.remeshing_folder))
-            print(remesh_file)
+
             mesh_info = scipy.io.loadmat(remesh_file)
             idx_arr = mesh_info["idx_arr"]
             triv_arr = mesh_info["triv_arr"]
@@ -161,9 +161,9 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
         i1 = int(index / self.dataset.num_shapes)
         i2 = int(index % self.dataset.num_shapes)
 
-        idx_arr_x = self.idx_arr_arr[i1]
-        idx_arr_y = self.idx_arr_arr[i2]
-
+        idx_arr_x = self.idx_arr_arr[i1] #Vertices of X
+        idx_arr_y = self.idx_arr_arr[i2] #Verices of Y
+        print(idx_arr_x)
         triv_arr_x = self.triv_arr_arr[i1]
         triv_arr_y = self.triv_arr_arr[i2]
 

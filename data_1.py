@@ -64,7 +64,7 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
         self.axis = axis
         self.load_dist_mat = load_dist_mat
         self.load_sub = load_sub
-
+        print(self.axis) #remove later
         self.data = []
 
         self._init_data()
@@ -77,13 +77,13 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
             data_curr = input_to_batch(load_data["X"][0])
 
             print("Loaded file ", file_name, "")
-            print("index:", self._get_index(i)) # remove later
+
             if self.load_dist_mat:
                 file_name = self._get_file_from_folder(self._get_index(i),
                                                        os.path.join(self.folder_path, "distance_matrix"))
                 load_dist = scipy.io.loadmat(file_name)
-                load_dist["D"][load_dist["D"] > 1e2] = 2
-                data_curr["D"] = np.asarray(load_dist["D"], dtype=np.float32)
+                load_dist["D"][load_dist["D"] > 1e2] = 2 #if the distance between any 2 points is more than 100, make it 2
+                data_curr["D"] = np.asarray(load_dist["D"], dtype=np.float32) #adding attribute D of distance matrix
                 print("Loaded file ", file_name, "")
 
             self.data.append(data_curr)

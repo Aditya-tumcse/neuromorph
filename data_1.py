@@ -64,7 +64,7 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
         self.axis = axis
         self.load_dist_mat = load_dist_mat
         self.load_sub = load_sub
-        print(self.axis) #remove later
+        print("Axis:", self.axis) #remove later
         self.data = []
 
         self._init_data()

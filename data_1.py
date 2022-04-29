@@ -71,13 +71,13 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
 
     def _init_data(self):
         for i in range(self.num_shapes):
-            file_name = self._get_file(self._get_index(i)) # distance matrix
+            file_name = self._get_file(self._get_index(i)) # files with resolution 2000
             load_data = scipy.io.loadmat(file_name)
-            print(load_data.keys())
+
             data_curr = input_to_batch(load_data["X"][0])
 
             print("Loaded file ", file_name, "")
-
+            print("index:", self._get_index(i)) # remove later
             if self.load_dist_mat:
                 file_name = self._get_file_from_folder(self._get_index(i),
                                                        os.path.join(self.folder_path, "distance_matrix"))

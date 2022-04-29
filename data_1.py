@@ -83,8 +83,7 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
                                                        os.path.join(self.folder_path, "distance_matrix"))
                 load_dist = scipy.io.loadmat(file_name)
                 load_dist["D"][load_dist["D"] > 1e2] = 2 #if the distance between any 2 points is more than 100, make it 2
-                data_curr["D"] = np.asarray(load_dist["D"], dtype=np.float32) #adding attribute D of distance matrix
-                print(data_curr.keys())
+                data_curr["D"] = np.asarray(load_dist["D"], dtype=np.float32) #adding attribute D of distance matrix.data_dict contains vert, triv and D as keys
                 print("Loaded file ", file_name, "")
 
             self.data.append(data_curr)
@@ -304,4 +303,4 @@ if __name__ == "__main__":
     print("main of data.py")
     data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
     data = Smal_train(resolution=2000, load_dist_mat=True, load_sub=True)
-    print(data)
+    print(data.axis)

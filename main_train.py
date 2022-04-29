@@ -11,7 +11,7 @@ import wandb
 
 class HypParam(ParamBase):
     def __init__(self):
-        self.increase_thresh = 300
+        self.increase_thresh = 800
 
         self.method = "arap"
         self.in_mod = get_in_mod()

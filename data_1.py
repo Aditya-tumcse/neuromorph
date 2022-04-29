@@ -145,6 +145,7 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
 
         for i in range(self.dataset.num_shapes):
             remesh_file = self._get_file_from_folder(self.dataset._get_index(i), os.path.join(self.dataset.folder_path, self.remeshing_folder))
+            print(remesh_file)
             mesh_info = scipy.io.loadmat(remesh_file)
             idx_arr = mesh_info["idx_arr"]
             triv_arr = mesh_info["triv_arr"]
@@ -303,4 +304,5 @@ if __name__ == "__main__":
     print("main of data.py")
     data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
     data = Smal_train(resolution=2000, load_dist_mat=True, load_sub=True)
-    print(data.axis)
+    remeshed_data = ShapeDatasetCombineRemesh(data)
+    print(remeshed_data.)

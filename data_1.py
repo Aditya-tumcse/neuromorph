@@ -111,6 +111,7 @@ class ShapeDatasetCombine(ShapeDatasetInMemory):
         print("loaded", self.dataset_name_str(), "with", self.num_pairs, "pairs")
 
     def __getitem__(self, index):
+        print("Index:",index) #Remove this later
         i1 = int(index / self.num_shapes)
         i2 = int(index % self.num_shapes)
         data_curr = dict()

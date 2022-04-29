@@ -75,8 +75,8 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
             load_data = scipy.io.loadmat(file_name)
 
             data_curr = input_to_batch(load_data["X"][0])
-
-            print("Loaded file ", file_name, "")
+            print("File name:", file_name)
+            #print("Loaded file ", file_name, "")
 
             if self.load_dist_mat:
                 file_name = self._get_file_from_folder(self._get_index(i),
@@ -111,14 +111,13 @@ class ShapeDatasetCombine(ShapeDatasetInMemory):
         print("loaded", self.dataset_name_str(), "with", self.num_pairs, "pairs")
 
     def __getitem__(self, index):
-        print("Index:", index) #Remove this later
         i1 = int(index / self.num_shapes)
         i2 = int(index % self.num_shapes)
         data_curr = dict()
         data_curr["X"] = self.data[i1]
         data_curr["Y"] = self.data[i2]
         data_curr["axis"] = self.axis
-        print("data dictionary:", data_curr) #remove later
+
         return data_curr
 
     def __len__(self):

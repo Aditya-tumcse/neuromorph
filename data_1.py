@@ -286,7 +286,7 @@ class Shrec20_full(ShapeDatasetCombine):
         return "Shrec20_" + str(self.resolution) + "_train"
 
 class Smal_train(ShapeDatasetCombine):
-    def __init__(self, resolution, num_shapes=39, load_dist_mat=False, load_sub=False):
+    def __init__(self, resolution, num_shapes=3, load_dist_mat=False, load_sub=False):
         self.resolution = resolution
         super().__init__(get_smal_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 

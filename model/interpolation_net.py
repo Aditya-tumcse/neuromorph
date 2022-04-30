@@ -200,7 +200,7 @@ class InterpolNet:
     def train(self):
         print("start training ...")
 
-        wandb.init(project="Neuromorph_SMAL_Unaligned") #Initialize a new wandb run
+        wandb.init(project="Neuromorph_SMAL_aligned") #Initialize a new wandb run
 
         self.interp_module.train()
 

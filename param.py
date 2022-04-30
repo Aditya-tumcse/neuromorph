@@ -20,8 +20,8 @@ device_cpu = torch.device('cpu')
 data_folder_smal = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/mat"
 #data_folder_smal_aligned = "/usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL/aligned_preprocessed/mat"
 
-chkpt_folder = "data/checkpoint"
-data_folder_out = "data/out"
+chkpt_folder = "/usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_unaligned/checkpoint"
+data_folder_out = "/usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_unaligned/out"
 
 
 def get_timestr():

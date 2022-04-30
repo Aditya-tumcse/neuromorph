@@ -286,14 +286,14 @@ class Shrec20_full(ShapeDatasetCombine):
 class Smal_train(ShapeDatasetCombine):
     def __init__(self, resolution, num_shapes=39, load_dist_mat=False, load_sub=False):
         self.resolution = resolution
-        super().__init__(get_smal_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
+        super().__init__(get_smal_folder_aligned(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 
     def dataset_name_str(self):
         return "SMAL_train"
 
 class Smal_test(ShapeDatasetCombine):
     def __init__(self, resolution=None, num_shapes=10, load_dist_mat=False, load_sub=False):
-        super().__init__(get_smal_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
+        super().__init__(get_smal_folder_aligned(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 
     def dataset_name_str(self):
         return "SMAL_test"

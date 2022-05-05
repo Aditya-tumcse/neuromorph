@@ -200,7 +200,7 @@ class InterpolNet:
     def train(self):
         print("start training ...")
 
-        wandb.init(project="Neuromorph_SMAL_Unaligned") #Initialize a new wandb run
+        wandb.init(project="Neuromorph_SMAL_aligned") #Initialize a new wandb run
 
         self.interp_module.train()
 
@@ -211,6 +211,7 @@ class InterpolNet:
             self.update_settings()
 
             for i, data in enumerate(self.train_loader):
+                print(type(data)) #delete later
                 shape_x = batch_to_shape(data["X"])
                 shape_y = batch_to_shape(data["Y"])
 

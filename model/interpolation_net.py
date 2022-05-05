@@ -214,8 +214,6 @@ class InterpolNet:
                 shape_x = batch_to_shape(data["X"])
                 shape_y = batch_to_shape(data["Y"])
 
-                print(shape_x.shape, shape_y.shape) #delete later
-
                 shape_x, shape_y = self.preprocess(shape_x, shape_y)
 
                 loss, loss_comp = self.interp_module(shape_x, shape_y)

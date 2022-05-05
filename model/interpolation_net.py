@@ -211,9 +211,10 @@ class InterpolNet:
             self.update_settings()
 
             for i, data in enumerate(self.train_loader):
-                print(i, data)
                 shape_x = batch_to_shape(data["X"])
                 shape_y = batch_to_shape(data["Y"])
+
+                print(shape_x.shape, shape_y.shape) #delete later
 
                 shape_x, shape_y = self.preprocess(shape_x, shape_y)
 

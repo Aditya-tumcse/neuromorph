@@ -296,7 +296,7 @@ class InterpolNet:
 
         if compute_val_loss:
             print("Validation loss = ", tot_loss_val)
-            wandb.log({"Validation_Loss": tot_loss_val}) #Log the validation loss into wandb
+            #wandb.log({"Validation_Loss": tot_loss_val}) #Log the validation loss into wandb
 
         return shape_x_out, shape_y_out, points_out
 

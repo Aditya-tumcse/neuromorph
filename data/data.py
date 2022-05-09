@@ -293,7 +293,7 @@ class Smal_train(ShapeDatasetCombine):
 
 class Smal_test(ShapeDatasetCombine):
     def __init__(self, resolution=None, num_shapes=10, load_dist_mat=False, load_sub=False):
-        super().__init__(get_smal_folder_aligned(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
+        super().__init__(get_smal_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 
     def dataset_name_str(self):
         return "SMAL_test"

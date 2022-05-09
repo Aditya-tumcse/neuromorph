@@ -9,4 +9,4 @@
 
 module load cuda/11.3
 cd /usr/stud/srinivaa/code/neuromorph/
-srun -u /usr/stud/srinivaa/anaconda3/envs/neuromorph/bin/python3 /usr/stud/srinivaa/code/neuromorph/main_test.py
+srun -u /usr/stud/srinivaa/anaconda3/envs/neuromorph/bin/python3 /usr/stud/srinivaa/code/neuromorph/main_test.py 2022_04_30__08_51_24

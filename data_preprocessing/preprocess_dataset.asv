@@ -20,17 +20,17 @@ function preprocess_dataset(dataset_path, shape_file_extension, resolution_sub)
     end
     
     for i = 1:length(directoryNames)
-        disp(directoryNames(i))
-        disp("Converting the shape files to .mat files...")
-        dataset_path_mat = convert_dataset(dataset_path,directoryNames(i),shape_file_extension);
+            disp(directoryNames(i))
+            disp("Converting the shape files to .mat files...")
+            dataset_path_mat = convert_dataset(dataset_path,directoryNames(i),shape_file_extension);
     
-        fprintf("Subsampling the shapes to a resolution of %d vertices...\n", resolution_sub)
-        dataset_path_sub = reduce_folder_individual(dataset_path_mat, resolution_sub);
+         fprintf("Subsampling the shapes to a resolution of %d vertices...\n", resolution_sub)
+         dataset_path_sub = reduce_folder_individual(dataset_path_mat, resolution_sub);
      
-        disp("Creating the remeshed version of individual shapes...")
-        create_remeshed_dataset(dataset_path_sub);
+         disp("Creating the remeshed version of individual shapes...")
+         create_remeshed_dataset(dataset_path_sub);
      
-        disp("Calculating the geodesic distance matrices...")
-        compute_dist_matrices(dataset_path_sub);
+         disp("Calculating the geodesic distance matrices...")
+         compute_dist_matrices(dataset_path_sub);
     end
 end

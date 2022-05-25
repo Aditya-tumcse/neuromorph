@@ -134,5 +134,5 @@ def train_main():
     start_train(dataset, dataset_val)
 
 if __name__ == "__main__":
-    wandb.login()
+    #wandb.login()
     train_main()

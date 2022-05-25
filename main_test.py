@@ -157,8 +157,8 @@ def run_test(time_stamp_chkpt=None):
 
     hyp_param = HypParam()
 
-    dataset_val = Faust_remeshed_test(2000)
-
+    #dataset_val = Faust_remeshed_test(2000)
+    dataset_val = Smal_test(2000)
     hyp_param.rot_mod = 0
 
     for i_time, time_stamp in enumerate(time_stamp_arr):

@@ -1,11 +1,12 @@
-function folder_out = convert_dataset(folder_in, shape_file_ext)
+function folder_out = convert_dataset(folder_in,category,shape_file_ext)
 
     % Copyright (c) Facebook, Inc. and its affiliates.
     %
     % This source code is licensed under the MIT license found in the
     % LICENSE file in the root directory of this source tree.
 
-    files = dir(fullfile(folder_in, "*" + shape_file_ext));
+    files = dir(fullfile(folder_in,category,"*" + shape_file_ext));
+    
     folder_out = fullfile(folder_in, "mat/");
     if ~isfolder(folder_out); mkdir(folder_out); end
 
@@ -13,10 +14,10 @@ function folder_out = convert_dataset(folder_in, shape_file_ext)
 
         fprintf(" Processing %d of %d\n", i, length(files));
 
-        file_in = fullfile(folder_in, files(i).name);
+        file_in = fullfile(folder_in,category, files(i).name);
         [~, ~, file_in_ext] = fileparts(file_in);
 
-        file_out = fullfile(folder_out, "shape_" + string(num2str(i - 1, '%03d')) + ".mat");
+        file_out = fullfile(folder_out, "shape_" + string(num2str(i - 1, '%03d')) + "_" + category + ".mat");
         if exist(file_out); continue; end
 
         switch file_in_ext

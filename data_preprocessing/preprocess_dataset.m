@@ -6,6 +6,10 @@ function preprocess_dataset(dataset_path, shape_file_extension, resolution_sub)
     % LICENSE file in the root directory of this source tree.
 
     addpath(genpath(fileparts(mfilename('fullpath'))));
+   
+    files = dir(dataset_path);
+    directoryNames = {files([files.isdir]).name};
+    directoryNames = directoryNames(~ismember(directoryNames,{'.','..'}));
 
     if ~exist("shape_file_extension", "var")
         shape_file_extension = ".obj";
@@ -14,16 +18,19 @@ function preprocess_dataset(dataset_path, shape_file_extension, resolution_sub)
     if ~exist("resolution_sub", "var")
         resolution_sub = 2000;
     end
-
-    disp("Converting the shape files to .mat files...")
-    dataset_path_mat = convert_dataset(dataset_path, shape_file_extension);
-
-    fprintf("Subsampling the shapes to a resolution of %d vertices...\n", resolution_sub)
-    dataset_path_sub = reduce_folder_individual(dataset_path_mat, resolution_sub);
-
-    disp("Creating the remeshed version of individual shapes...")
-    create_remeshed_dataset(dataset_path_sub);
-
-    disp("Calculating the geodesic distance matrices...")
-    compute_dist_matrices(dataset_path_sub);
+    
+    for i = 1:length(directoryNames)
+        disp(directoryNames(i))
+        disp("Converting the shape files to .mat files...")
+        dataset_path_mat = convert_dataset(dataset_path,directoryNames(i),shape_file_extension);
+    
+%         fprintf("Subsampling the shapes to a resolution of %d vertices...\n", resolution_sub)
+%         dataset_path_sub = reduce_folder_individual(dataset_path_mat, resolution_sub);
+%     
+%         disp("Creating the remeshed version of individual shapes...")
+%         create_remeshed_dataset(dataset_path_sub);
+%     
+%         disp("Calculating the geodesic distance matrices...")
+%         compute_dist_matrices(dataset_path_sub);
+    end
 end

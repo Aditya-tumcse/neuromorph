@@ -1,0 +1,444 @@
+
+epoch 0000, loss = 4.45113 (arap: 0.01232, reg: 3.94641, geo: 0.49240), reserved memory=13854MB
+epoch 0001, loss = 1.49742 (arap: 0.05138, reg: 1.13047, geo: 0.31556), reserved memory=13854MB
+epoch 0002, loss = 1.24065 (arap: 0.07973, reg: 0.84916, geo: 0.31176), reserved memory=13854MB
+epoch 0003, loss = 1.08514 (arap: 0.10547, reg: 0.67522, geo: 0.30445), reserved memory=13854MB
+epoch 0004, loss = 0.96990 (arap: 0.11322, reg: 0.56373, geo: 0.29294), reserved memory=13856MB
+Validation loss =  tensor(0.9108, device='cuda:0')
+epoch 0005, loss = 0.92543 (arap: 0.11425, reg: 0.52761, geo: 0.28357), reserved memory=18606MB
+epoch 0006, loss = 0.84088 (arap: 0.11161, reg: 0.45646, geo: 0.27281), reserved memory=18606MB
+epoch 0007, loss = 0.83231 (arap: 0.11220, reg: 0.45207, geo: 0.26804), reserved memory=18606MB
+epoch 0008, loss = 0.83875 (arap: 0.11329, reg: 0.46167, geo: 0.26378), reserved memory=18606MB
+epoch 0009, loss = 0.81965 (arap: 0.11488, reg: 0.44727, geo: 0.25750), reserved memory=18606MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.8732, device='cuda:0')
+epoch 0010, loss = 0.81597 (arap: 0.11294, reg: 0.44744, geo: 0.25559), reserved memory=18618MB
+epoch 0011, loss = 0.76971 (arap: 0.11208, reg: 0.40756, geo: 0.25007), reserved memory=18618MB
+epoch 0012, loss = 0.77803 (arap: 0.10782, reg: 0.42610, geo: 0.24411), reserved memory=18618MB
+epoch 0013, loss = 0.78482 (arap: 0.11045, reg: 0.42876, geo: 0.24561), reserved memory=18618MB
+epoch 0014, loss = 0.75883 (arap: 0.11130, reg: 0.40700, geo: 0.24053), reserved memory=18618MB
+Validation loss =  tensor(0.7496, device='cuda:0')
+epoch 0015, loss = 0.73928 (arap: 0.11117, reg: 0.39268, geo: 0.23544), reserved memory=20602MB
+epoch 0016, loss = 0.74717 (arap: 0.11224, reg: 0.40058, geo: 0.23435), reserved memory=20602MB
+epoch 0017, loss = 0.74831 (arap: 0.11370, reg: 0.40316, geo: 0.23144), reserved memory=20602MB
+epoch 0018, loss = 0.70066 (arap: 0.10706, reg: 0.36362, geo: 0.22998), reserved memory=20602MB
+epoch 0019, loss = 0.70803 (arap: 0.11134, reg: 0.37057, geo: 0.22612), reserved memory=20602MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.6607, device='cuda:0')
+epoch 0020, loss = 0.70940 (arap: 0.11148, reg: 0.37334, geo: 0.22459), reserved memory=20602MB
+epoch 0021, loss = 0.68106 (arap: 0.10816, reg: 0.35313, geo: 0.21977), reserved memory=20602MB
+epoch 0022, loss = 0.68408 (arap: 0.10997, reg: 0.35567, geo: 0.21844), reserved memory=20602MB
+epoch 0023, loss = 0.65924 (arap: 0.10600, reg: 0.33858, geo: 0.21465), reserved memory=20602MB
+epoch 0024, loss = 0.66395 (arap: 0.10669, reg: 0.34262, geo: 0.21464), reserved memory=20602MB
+Validation loss =  tensor(0.5665, device='cuda:0')
+epoch 0025, loss = 0.66215 (arap: 0.10681, reg: 0.34312, geo: 0.21222), reserved memory=20602MB
+epoch 0026, loss = 0.64466 (arap: 0.10516, reg: 0.32784, geo: 0.21166), reserved memory=20602MB
+epoch 0027, loss = 0.65913 (arap: 0.10497, reg: 0.34025, geo: 0.21392), reserved memory=20602MB
+epoch 0028, loss = 0.62945 (arap: 0.10221, reg: 0.31947, geo: 0.20778), reserved memory=20602MB
+epoch 0029, loss = 0.62402 (arap: 0.10339, reg: 0.31649, geo: 0.20414), reserved memory=20602MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.6460, device='cuda:0')
+epoch 0030, loss = 0.64183 (arap: 0.10551, reg: 0.32929, geo: 0.20703), reserved memory=20602MB
+epoch 0031, loss = 0.61867 (arap: 0.10347, reg: 0.31057, geo: 0.20463), reserved memory=20602MB
+epoch 0032, loss = 0.63656 (arap: 0.10497, reg: 0.32719, geo: 0.20440), reserved memory=20602MB
+epoch 0033, loss = 0.62176 (arap: 0.10306, reg: 0.31480, geo: 0.20390), reserved memory=20602MB
+epoch 0034, loss = 0.59342 (arap: 0.10177, reg: 0.29300, geo: 0.19864), reserved memory=20602MB
+Validation loss =  tensor(0.5466, device='cuda:0')
+epoch 0035, loss = 0.58121 (arap: 0.09968, reg: 0.28366, geo: 0.19787), reserved memory=20602MB
+epoch 0036, loss = 0.57128 (arap: 0.09922, reg: 0.27684, geo: 0.19522), reserved memory=20602MB
+epoch 0037, loss = 0.58677 (arap: 0.10095, reg: 0.29120, geo: 0.19462), reserved memory=20602MB
+epoch 0038, loss = 0.58275 (arap: 0.10068, reg: 0.28655, geo: 0.19552), reserved memory=20602MB
+epoch 0039, loss = 0.58559 (arap: 0.10175, reg: 0.28948, geo: 0.19437), reserved memory=20602MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.6080, device='cuda:0')
+epoch 0040, loss = 0.60437 (arap: 0.10224, reg: 0.30687, geo: 0.19527), reserved memory=20740MB
+epoch 0041, loss = 0.58795 (arap: 0.10057, reg: 0.29031, geo: 0.19707), reserved memory=20740MB
+epoch 0042, loss = 0.55378 (arap: 0.09617, reg: 0.26735, geo: 0.19026), reserved memory=20740MB
+epoch 0043, loss = 0.57171 (arap: 0.09840, reg: 0.28088, geo: 0.19244), reserved memory=20740MB
+epoch 0044, loss = 0.56573 (arap: 0.09753, reg: 0.27697, geo: 0.19123), reserved memory=20740MB
+Validation loss =  tensor(0.4887, device='cuda:0')
+epoch 0045, loss = 0.55489 (arap: 0.09629, reg: 0.27007, geo: 0.18853), reserved memory=20740MB
+epoch 0046, loss = 0.54423 (arap: 0.09595, reg: 0.26147, geo: 0.18680), reserved memory=20740MB
+epoch 0047, loss = 0.53459 (arap: 0.09364, reg: 0.25649, geo: 0.18447), reserved memory=20740MB
+epoch 0048, loss = 0.54049 (arap: 0.09416, reg: 0.26185, geo: 0.18448), reserved memory=20740MB
+epoch 0049, loss = 0.54229 (arap: 0.09583, reg: 0.26340, geo: 0.18306), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.5052, device='cuda:0')
+epoch 0050, loss = 0.51652 (arap: 0.09303, reg: 0.24198, geo: 0.18151), reserved memory=20740MB
+epoch 0051, loss = 0.53852 (arap: 0.09483, reg: 0.25907, geo: 0.18462), reserved memory=20740MB
+epoch 0052, loss = 0.52866 (arap: 0.09301, reg: 0.25194, geo: 0.18370), reserved memory=20740MB
+epoch 0053, loss = 0.51796 (arap: 0.09130, reg: 0.24651, geo: 0.18016), reserved memory=20740MB
+epoch 0054, loss = 0.50792 (arap: 0.09065, reg: 0.24016, geo: 0.17711), reserved memory=20740MB
+Validation loss =  tensor(0.4684, device='cuda:0')
+epoch 0055, loss = 0.50557 (arap: 0.09104, reg: 0.23838, geo: 0.17615), reserved memory=20740MB
+epoch 0056, loss = 0.51775 (arap: 0.09282, reg: 0.24606, geo: 0.17887), reserved memory=20740MB
+epoch 0057, loss = 0.51207 (arap: 0.09061, reg: 0.24424, geo: 0.17723), reserved memory=20740MB
+epoch 0058, loss = 0.50650 (arap: 0.09006, reg: 0.24021, geo: 0.17623), reserved memory=20740MB
+epoch 0059, loss = 0.51239 (arap: 0.09238, reg: 0.24307, geo: 0.17694), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.4858, device='cuda:0')
+epoch 0060, loss = 0.48017 (arap: 0.08719, reg: 0.22092, geo: 0.17206), reserved memory=20740MB
+epoch 0061, loss = 0.47936 (arap: 0.08649, reg: 0.22183, geo: 0.17103), reserved memory=20740MB
+epoch 0062, loss = 0.48771 (arap: 0.08733, reg: 0.23082, geo: 0.16955), reserved memory=20740MB
+epoch 0063, loss = 0.47469 (arap: 0.08726, reg: 0.21787, geo: 0.16956), reserved memory=20740MB
+epoch 0064, loss = 0.47850 (arap: 0.08675, reg: 0.22222, geo: 0.16953), reserved memory=20740MB
+Validation loss =  tensor(0.4293, device='cuda:0')
+epoch 0065, loss = 0.53045 (arap: 0.09185, reg: 0.26090, geo: 0.17770), reserved memory=20740MB
+epoch 0066, loss = 0.48339 (arap: 0.08728, reg: 0.22269, geo: 0.17342), reserved memory=20740MB
+epoch 0067, loss = 0.46694 (arap: 0.08504, reg: 0.21358, geo: 0.16833), reserved memory=20740MB
+epoch 0068, loss = 0.46484 (arap: 0.08470, reg: 0.21250, geo: 0.16764), reserved memory=20740MB
+epoch 0069, loss = 0.45826 (arap: 0.08462, reg: 0.20834, geo: 0.16530), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.3825, device='cuda:0')
+epoch 0070, loss = 0.48635 (arap: 0.08641, reg: 0.23313, geo: 0.16680), reserved memory=20740MB
+epoch 0071, loss = 0.47380 (arap: 0.08571, reg: 0.22022, geo: 0.16787), reserved memory=20740MB
+epoch 0072, loss = 0.47501 (arap: 0.08576, reg: 0.22183, geo: 0.16742), reserved memory=20740MB
+epoch 0073, loss = 0.44932 (arap: 0.08191, reg: 0.20546, geo: 0.16195), reserved memory=20740MB
+epoch 0074, loss = 0.44294 (arap: 0.08213, reg: 0.19917, geo: 0.16164), reserved memory=20740MB
+Validation loss =  tensor(0.3473, device='cuda:0')
+epoch 0075, loss = 0.45498 (arap: 0.08228, reg: 0.20928, geo: 0.16343), reserved memory=20740MB
+epoch 0076, loss = 0.44561 (arap: 0.08065, reg: 0.20273, geo: 0.16222), reserved memory=20740MB
+epoch 0077, loss = 0.47264 (arap: 0.08490, reg: 0.22275, geo: 0.16498), reserved memory=20740MB
+epoch 0078, loss = 0.43630 (arap: 0.08148, reg: 0.19508, geo: 0.15974), reserved memory=20740MB
+epoch 0079, loss = 0.42525 (arap: 0.07868, reg: 0.18914, geo: 0.15743), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.3354, device='cuda:0')
+epoch 0080, loss = 0.42172 (arap: 0.07798, reg: 0.18770, geo: 0.15604), reserved memory=20740MB
+epoch 0081, loss = 0.45951 (arap: 0.08256, reg: 0.21475, geo: 0.16220), reserved memory=20740MB
+epoch 0082, loss = 0.43931 (arap: 0.08065, reg: 0.20139, geo: 0.15728), reserved memory=20740MB
+epoch 0083, loss = 0.42295 (arap: 0.07854, reg: 0.18870, geo: 0.15571), reserved memory=20740MB
+epoch 0084, loss = 0.42805 (arap: 0.07943, reg: 0.19316, geo: 0.15546), reserved memory=20740MB
+Validation loss =  tensor(0.3368, device='cuda:0')
+epoch 0085, loss = 0.43179 (arap: 0.07874, reg: 0.19687, geo: 0.15618), reserved memory=20740MB
+epoch 0086, loss = 0.42146 (arap: 0.07754, reg: 0.18917, geo: 0.15475), reserved memory=20740MB
+epoch 0087, loss = 0.41695 (arap: 0.07689, reg: 0.18675, geo: 0.15330), reserved memory=20740MB
+epoch 0088, loss = 0.41382 (arap: 0.07631, reg: 0.18496, geo: 0.15255), reserved memory=20740MB
+epoch 0089, loss = 0.41208 (arap: 0.07611, reg: 0.18362, geo: 0.15236), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.3564, device='cuda:0')
+epoch 0090, loss = 0.46493 (arap: 0.08186, reg: 0.22160, geo: 0.16147), reserved memory=20740MB
+epoch 0091, loss = 0.43983 (arap: 0.07906, reg: 0.20435, geo: 0.15642), reserved memory=20740MB
+epoch 0092, loss = 0.41969 (arap: 0.07692, reg: 0.19037, geo: 0.15241), reserved memory=20740MB
+epoch 0093, loss = 0.40222 (arap: 0.07507, reg: 0.17639, geo: 0.15076), reserved memory=20740MB
+epoch 0094, loss = 0.40126 (arap: 0.07396, reg: 0.17836, geo: 0.14895), reserved memory=20740MB
+Validation loss =  tensor(0.3764, device='cuda:0')
+epoch 0095, loss = 0.40401 (arap: 0.07521, reg: 0.17853, geo: 0.15027), reserved memory=20740MB
+epoch 0096, loss = 0.39930 (arap: 0.07457, reg: 0.17539, geo: 0.14934), reserved memory=20740MB
+epoch 0097, loss = 0.41738 (arap: 0.07662, reg: 0.18994, geo: 0.15083), reserved memory=20740MB
+epoch 0098, loss = 0.38773 (arap: 0.07175, reg: 0.16937, geo: 0.14660), reserved memory=20740MB
+epoch 0099, loss = 0.40406 (arap: 0.07351, reg: 0.18304, geo: 0.14751), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.3689, device='cuda:0')
+epoch 0100, loss = 0.38562 (arap: 0.07195, reg: 0.16761, geo: 0.14607), reserved memory=20740MB
+epoch 0101, loss = 0.38100 (arap: 0.07071, reg: 0.16491, geo: 0.14538), reserved memory=20740MB
+epoch 0102, loss = 0.38716 (arap: 0.07183, reg: 0.16938, geo: 0.14595), reserved memory=20740MB
+epoch 0103, loss = 0.40974 (arap: 0.07358, reg: 0.18604, geo: 0.15012), reserved memory=20740MB
+epoch 0104, loss = 0.37962 (arap: 0.07028, reg: 0.16442, geo: 0.14492), reserved memory=20740MB
+Validation loss =  tensor(0.2995, device='cuda:0')
+epoch 0105, loss = 0.36976 (arap: 0.06871, reg: 0.15732, geo: 0.14372), reserved memory=20740MB
+epoch 0106, loss = 0.36530 (arap: 0.06763, reg: 0.15556, geo: 0.14211), reserved memory=20740MB
+epoch 0107, loss = 0.36770 (arap: 0.06914, reg: 0.15708, geo: 0.14148), reserved memory=20740MB
+epoch 0108, loss = 0.36379 (arap: 0.06710, reg: 0.15439, geo: 0.14230), reserved memory=20740MB
+epoch 0109, loss = 0.38513 (arap: 0.07011, reg: 0.17171, geo: 0.14332), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.3205, device='cuda:0')
+epoch 0110, loss = 0.38850 (arap: 0.07094, reg: 0.17253, geo: 0.14503), reserved memory=20740MB
+epoch 0111, loss = 0.37818 (arap: 0.06956, reg: 0.16634, geo: 0.14229), reserved memory=20740MB
+epoch 0112, loss = 0.39108 (arap: 0.07162, reg: 0.17388, geo: 0.14557), reserved memory=20740MB
+epoch 0113, loss = 0.34655 (arap: 0.06545, reg: 0.14292, geo: 0.13818), reserved memory=20740MB
+epoch 0114, loss = 0.36387 (arap: 0.06753, reg: 0.15676, geo: 0.13958), reserved memory=20740MB
+Validation loss =  tensor(0.2831, device='cuda:0')
+epoch 0115, loss = 0.35882 (arap: 0.06657, reg: 0.15300, geo: 0.13924), reserved memory=20740MB
+epoch 0116, loss = 0.36051 (arap: 0.06752, reg: 0.15479, geo: 0.13820), reserved memory=20740MB
+epoch 0117, loss = 0.36346 (arap: 0.06720, reg: 0.15522, geo: 0.14105), reserved memory=20740MB
+epoch 0118, loss = 0.38181 (arap: 0.07028, reg: 0.16967, geo: 0.14186), reserved memory=20740MB
+epoch 0119, loss = 0.36388 (arap: 0.06743, reg: 0.15660, geo: 0.13985), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2711, device='cuda:0')
+epoch 0120, loss = 0.35363 (arap: 0.06542, reg: 0.14801, geo: 0.14020), reserved memory=20740MB
+epoch 0121, loss = 0.33851 (arap: 0.06307, reg: 0.13920, geo: 0.13624), reserved memory=20740MB
+epoch 0122, loss = 0.34885 (arap: 0.06504, reg: 0.14687, geo: 0.13694), reserved memory=20740MB
+epoch 0123, loss = 0.34380 (arap: 0.06419, reg: 0.14299, geo: 0.13662), reserved memory=20740MB
+epoch 0124, loss = 0.33254 (arap: 0.06211, reg: 0.13643, geo: 0.13400), reserved memory=20740MB
+Validation loss =  tensor(0.3518, device='cuda:0')
+epoch 0125, loss = 0.35606 (arap: 0.06578, reg: 0.15058, geo: 0.13970), reserved memory=20740MB
+epoch 0126, loss = 0.34653 (arap: 0.06418, reg: 0.14593, geo: 0.13642), reserved memory=20740MB
+epoch 0127, loss = 0.35152 (arap: 0.06429, reg: 0.14945, geo: 0.13777), reserved memory=20740MB
+epoch 0128, loss = 0.35260 (arap: 0.06509, reg: 0.15100, geo: 0.13651), reserved memory=20740MB
+epoch 0129, loss = 0.34312 (arap: 0.06369, reg: 0.14575, geo: 0.13368), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2433, device='cuda:0')
+epoch 0130, loss = 0.32916 (arap: 0.06198, reg: 0.13493, geo: 0.13226), reserved memory=20740MB
+epoch 0131, loss = 0.32792 (arap: 0.06165, reg: 0.13343, geo: 0.13284), reserved memory=20740MB
+epoch 0132, loss = 0.36600 (arap: 0.06582, reg: 0.16170, geo: 0.13849), reserved memory=20740MB
+epoch 0133, loss = 0.33408 (arap: 0.06246, reg: 0.13762, geo: 0.13399), reserved memory=20740MB
+epoch 0134, loss = 0.33619 (arap: 0.06233, reg: 0.14021, geo: 0.13365), reserved memory=20740MB
+Validation loss =  tensor(0.2547, device='cuda:0')
+epoch 0135, loss = 0.33785 (arap: 0.06229, reg: 0.14122, geo: 0.13434), reserved memory=20740MB
+epoch 0136, loss = 0.31272 (arap: 0.05921, reg: 0.12459, geo: 0.12892), reserved memory=20740MB
+epoch 0137, loss = 0.31961 (arap: 0.05989, reg: 0.12907, geo: 0.13065), reserved memory=20740MB
+epoch 0138, loss = 0.34754 (arap: 0.06381, reg: 0.14963, geo: 0.13409), reserved memory=20740MB
+epoch 0139, loss = 0.33513 (arap: 0.06217, reg: 0.13890, geo: 0.13406), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2519, device='cuda:0')
+epoch 0140, loss = 0.41473 (arap: 0.07259, reg: 0.19937, geo: 0.14277), reserved memory=20740MB
+epoch 0141, loss = 0.38836 (arap: 0.06878, reg: 0.18003, geo: 0.13956), reserved memory=20740MB
+epoch 0142, loss = 0.33807 (arap: 0.06278, reg: 0.14028, geo: 0.13500), reserved memory=20740MB
+epoch 0143, loss = 0.33180 (arap: 0.06087, reg: 0.13875, geo: 0.13219), reserved memory=20740MB
+epoch 0144, loss = 0.30764 (arap: 0.05833, reg: 0.11907, geo: 0.13024), reserved memory=20740MB
+Validation loss =  tensor(0.2400, device='cuda:0')
+epoch 0145, loss = 0.30797 (arap: 0.05877, reg: 0.12080, geo: 0.12840), reserved memory=20740MB
+epoch 0146, loss = 0.31048 (arap: 0.05872, reg: 0.12290, geo: 0.12885), reserved memory=20740MB
+epoch 0147, loss = 0.30797 (arap: 0.05830, reg: 0.12215, geo: 0.12752), reserved memory=20740MB
+epoch 0148, loss = 0.32055 (arap: 0.05917, reg: 0.13106, geo: 0.13033), reserved memory=20740MB
+epoch 0149, loss = 0.30684 (arap: 0.05725, reg: 0.12050, geo: 0.12908), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2159, device='cuda:0')
+epoch 0150, loss = 0.30805 (arap: 0.05802, reg: 0.12279, geo: 0.12724), reserved memory=20740MB
+epoch 0151, loss = 0.29826 (arap: 0.05687, reg: 0.11496, geo: 0.12643), reserved memory=20740MB
+epoch 0152, loss = 0.30273 (arap: 0.05726, reg: 0.11951, geo: 0.12596), reserved memory=20740MB
+epoch 0153, loss = 0.35364 (arap: 0.06246, reg: 0.15758, geo: 0.13360), reserved memory=20740MB
+epoch 0154, loss = 0.30513 (arap: 0.05818, reg: 0.11798, geo: 0.12896), reserved memory=20740MB
+Validation loss =  tensor(0.2164, device='cuda:0')
+epoch 0155, loss = 0.29048 (arap: 0.05548, reg: 0.11009, geo: 0.12491), reserved memory=20740MB
+epoch 0156, loss = 0.29915 (arap: 0.05664, reg: 0.11653, geo: 0.12599), reserved memory=20740MB
+epoch 0157, loss = 0.30848 (arap: 0.05780, reg: 0.12338, geo: 0.12731), reserved memory=20740MB
+epoch 0158, loss = 0.30411 (arap: 0.05680, reg: 0.12019, geo: 0.12712), reserved memory=20740MB
+epoch 0159, loss = 0.32529 (arap: 0.05970, reg: 0.13622, geo: 0.12937), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2180, device='cuda:0')
+epoch 0160, loss = 0.30139 (arap: 0.05702, reg: 0.11762, geo: 0.12674), reserved memory=20740MB
+epoch 0161, loss = 0.29509 (arap: 0.05581, reg: 0.11474, geo: 0.12454), reserved memory=20740MB
+epoch 0162, loss = 0.34108 (arap: 0.06155, reg: 0.14805, geo: 0.13148), reserved memory=20740MB
+epoch 0163, loss = 0.30618 (arap: 0.05738, reg: 0.12225, geo: 0.12654), reserved memory=20740MB
+epoch 0164, loss = 0.28881 (arap: 0.05546, reg: 0.11025, geo: 0.12311), reserved memory=20740MB
+Validation loss =  tensor(0.2418, device='cuda:0')
+epoch 0165, loss = 0.28772 (arap: 0.05484, reg: 0.10903, geo: 0.12385), reserved memory=20740MB
+epoch 0166, loss = 0.28138 (arap: 0.05404, reg: 0.10529, geo: 0.12205), reserved memory=20740MB
+epoch 0167, loss = 0.29021 (arap: 0.05528, reg: 0.11205, geo: 0.12289), reserved memory=20740MB
+epoch 0168, loss = 0.27405 (arap: 0.05342, reg: 0.09928, geo: 0.12135), reserved memory=20740MB
+epoch 0169, loss = 0.28259 (arap: 0.05392, reg: 0.10637, geo: 0.12231), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2051, device='cuda:0')
+epoch 0170, loss = 0.39175 (arap: 0.06430, reg: 0.18979, geo: 0.13766), reserved memory=20740MB
+epoch 0171, loss = 0.32365 (arap: 0.05953, reg: 0.13388, geo: 0.13024), reserved memory=20740MB
+epoch 0172, loss = 0.28784 (arap: 0.05447, reg: 0.10964, geo: 0.12373), reserved memory=20740MB
+epoch 0173, loss = 0.28246 (arap: 0.05366, reg: 0.10564, geo: 0.12316), reserved memory=20740MB
+epoch 0174, loss = 0.28857 (arap: 0.05482, reg: 0.11004, geo: 0.12371), reserved memory=20740MB
+Validation loss =  tensor(0.1885, device='cuda:0')
+epoch 0175, loss = 0.28512 (arap: 0.05368, reg: 0.10913, geo: 0.12231), reserved memory=20740MB
+epoch 0176, loss = 0.27327 (arap: 0.05275, reg: 0.10033, geo: 0.12020), reserved memory=20740MB
+epoch 0177, loss = 0.28228 (arap: 0.05345, reg: 0.10799, geo: 0.12084), reserved memory=20740MB
+epoch 0178, loss = 0.30774 (arap: 0.05706, reg: 0.12447, geo: 0.12621), reserved memory=20740MB
+epoch 0179, loss = 0.29692 (arap: 0.05543, reg: 0.11750, geo: 0.12398), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2589, device='cuda:0')
+epoch 0180, loss = 0.39522 (arap: 0.06515, reg: 0.18971, geo: 0.14036), reserved memory=20740MB
+epoch 0181, loss = 0.29242 (arap: 0.05486, reg: 0.11275, geo: 0.12481), reserved memory=20740MB
+epoch 0182, loss = 0.27383 (arap: 0.05313, reg: 0.09965, geo: 0.12105), reserved memory=20740MB
+epoch 0183, loss = 0.27477 (arap: 0.05316, reg: 0.10213, geo: 0.11948), reserved memory=20740MB
+epoch 0184, loss = 0.27960 (arap: 0.05365, reg: 0.10626, geo: 0.11969), reserved memory=20740MB
+Validation loss =  tensor(0.2100, device='cuda:0')
+epoch 0185, loss = 0.27237 (arap: 0.05260, reg: 0.10008, geo: 0.11969), reserved memory=20740MB
+epoch 0186, loss = 0.26954 (arap: 0.05237, reg: 0.09805, geo: 0.11912), reserved memory=20740MB
+epoch 0187, loss = 0.26817 (arap: 0.05181, reg: 0.09750, geo: 0.11887), reserved memory=20740MB
+epoch 0188, loss = 0.27235 (arap: 0.05264, reg: 0.10121, geo: 0.11850), reserved memory=20740MB
+epoch 0189, loss = 0.25939 (arap: 0.05104, reg: 0.09170, geo: 0.11665), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1795, device='cuda:0')
+epoch 0190, loss = 0.27112 (arap: 0.05222, reg: 0.10005, geo: 0.11885), reserved memory=20740MB
+epoch 0191, loss = 0.26655 (arap: 0.05152, reg: 0.09735, geo: 0.11769), reserved memory=20740MB
+epoch 0192, loss = 0.28449 (arap: 0.05354, reg: 0.10960, geo: 0.12136), reserved memory=20740MB
+epoch 0193, loss = 0.35120 (arap: 0.06063, reg: 0.16096, geo: 0.12961), reserved memory=20740MB
+epoch 0194, loss = 0.35358 (arap: 0.06337, reg: 0.15702, geo: 0.13319), reserved memory=20740MB
+Validation loss =  tensor(0.1993, device='cuda:0')
+epoch 0195, loss = 0.28239 (arap: 0.05355, reg: 0.10615, geo: 0.12269), reserved memory=20740MB
+epoch 0196, loss = 0.26429 (arap: 0.05135, reg: 0.09458, geo: 0.11835), reserved memory=20740MB
+epoch 0197, loss = 0.26404 (arap: 0.05126, reg: 0.09540, geo: 0.11738), reserved memory=20740MB
+epoch 0198, loss = 0.25756 (arap: 0.05045, reg: 0.09058, geo: 0.11653), reserved memory=20740MB
+epoch 0199, loss = 0.26232 (arap: 0.05077, reg: 0.09484, geo: 0.11671), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1822, device='cuda:0')
+epoch 0200, loss = 0.25739 (arap: 0.05030, reg: 0.09222, geo: 0.11487), reserved memory=20740MB
+epoch 0201, loss = 0.27052 (arap: 0.05190, reg: 0.10073, geo: 0.11789), reserved memory=20740MB
+epoch 0202, loss = 0.39835 (arap: 0.06289, reg: 0.19463, geo: 0.14083), reserved memory=20740MB
+epoch 0203, loss = 0.31246 (arap: 0.05636, reg: 0.12698, geo: 0.12911), reserved memory=20740MB
+epoch 0204, loss = 0.27025 (arap: 0.05147, reg: 0.09824, geo: 0.12053), reserved memory=20740MB
+Validation loss =  tensor(0.2018, device='cuda:0')
+epoch 0205, loss = 0.27428 (arap: 0.05184, reg: 0.10324, geo: 0.11921), reserved memory=20740MB
+epoch 0206, loss = 0.27545 (arap: 0.05187, reg: 0.10312, geo: 0.12046), reserved memory=20740MB
+epoch 0207, loss = 0.25654 (arap: 0.04986, reg: 0.09047, geo: 0.11620), reserved memory=20740MB
+epoch 0208, loss = 0.26092 (arap: 0.05053, reg: 0.09408, geo: 0.11631), reserved memory=20740MB
+epoch 0209, loss = 0.25660 (arap: 0.04974, reg: 0.09056, geo: 0.11630), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1865, device='cuda:0')
+epoch 0210, loss = 0.27239 (arap: 0.05145, reg: 0.10278, geo: 0.11816), reserved memory=20740MB
+epoch 0211, loss = 0.25628 (arap: 0.04985, reg: 0.09025, geo: 0.11619), reserved memory=20740MB
+epoch 0212, loss = 0.25181 (arap: 0.04928, reg: 0.08777, geo: 0.11476), reserved memory=20740MB
+epoch 0213, loss = 0.26602 (arap: 0.05092, reg: 0.09785, geo: 0.11725), reserved memory=20740MB
+epoch 0214, loss = 0.32047 (arap: 0.05799, reg: 0.13746, geo: 0.12502), reserved memory=20740MB
+Validation loss =  tensor(0.2335, device='cuda:0')
+epoch 0215, loss = 0.28795 (arap: 0.05391, reg: 0.11354, geo: 0.12050), reserved memory=20740MB
+epoch 0216, loss = 0.25675 (arap: 0.04997, reg: 0.09095, geo: 0.11583), reserved memory=20740MB
+epoch 0217, loss = 0.26401 (arap: 0.05013, reg: 0.09748, geo: 0.11639), reserved memory=20740MB
+epoch 0218, loss = 0.24734 (arap: 0.04901, reg: 0.08481, geo: 0.11353), reserved memory=20740MB
+epoch 0219, loss = 0.25251 (arap: 0.04918, reg: 0.08999, geo: 0.11333), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1641, device='cuda:0')
+epoch 0220, loss = 0.25942 (arap: 0.05006, reg: 0.09473, geo: 0.11463), reserved memory=20740MB
+epoch 0221, loss = 0.24555 (arap: 0.04833, reg: 0.08406, geo: 0.11317), reserved memory=20740MB
+epoch 0222, loss = 0.24506 (arap: 0.04807, reg: 0.08432, geo: 0.11267), reserved memory=20740MB
+epoch 0223, loss = 0.25485 (arap: 0.04954, reg: 0.09067, geo: 0.11463), reserved memory=20740MB
+epoch 0224, loss = 0.25381 (arap: 0.04929, reg: 0.09062, geo: 0.11390), reserved memory=20740MB
+Validation loss =  tensor(0.1656, device='cuda:0')
+epoch 0225, loss = 0.24520 (arap: 0.04836, reg: 0.08475, geo: 0.11209), reserved memory=20740MB
+epoch 0226, loss = 0.24354 (arap: 0.04786, reg: 0.08329, geo: 0.11240), reserved memory=20740MB
+epoch 0227, loss = 0.25842 (arap: 0.04958, reg: 0.09440, geo: 0.11443), reserved memory=20740MB
+epoch 0228, loss = 0.24928 (arap: 0.04839, reg: 0.08790, geo: 0.11300), reserved memory=20740MB
+epoch 0229, loss = 0.26797 (arap: 0.05025, reg: 0.10150, geo: 0.11622), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1800, device='cuda:0')
+epoch 0230, loss = 0.27334 (arap: 0.05127, reg: 0.10404, geo: 0.11803), reserved memory=20740MB
+epoch 0231, loss = 0.27420 (arap: 0.05131, reg: 0.10545, geo: 0.11744), reserved memory=20740MB
+epoch 0232, loss = 0.24573 (arap: 0.04806, reg: 0.08458, geo: 0.11309), reserved memory=20740MB
+epoch 0233, loss = 0.24217 (arap: 0.04772, reg: 0.08244, geo: 0.11201), reserved memory=20740MB
+epoch 0234, loss = 0.27540 (arap: 0.05075, reg: 0.10761, geo: 0.11704), reserved memory=20740MB
+Validation loss =  tensor(0.1909, device='cuda:0')
+epoch 0235, loss = 0.27188 (arap: 0.05118, reg: 0.10356, geo: 0.11714), reserved memory=20740MB
+epoch 0236, loss = 0.24648 (arap: 0.04825, reg: 0.08559, geo: 0.11264), reserved memory=20740MB
+epoch 0237, loss = 0.29876 (arap: 0.05598, reg: 0.12080, geo: 0.12199), reserved memory=20740MB
+epoch 0238, loss = 0.25876 (arap: 0.04958, reg: 0.09408, geo: 0.11510), reserved memory=20740MB
+epoch 0239, loss = 0.24986 (arap: 0.04837, reg: 0.08833, geo: 0.11316), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1655, device='cuda:0')
+epoch 0240, loss = 0.24811 (arap: 0.04835, reg: 0.08675, geo: 0.11302), reserved memory=20740MB
+epoch 0241, loss = 0.24083 (arap: 0.04703, reg: 0.08272, geo: 0.11108), reserved memory=20740MB
+epoch 0242, loss = 0.25164 (arap: 0.04864, reg: 0.09030, geo: 0.11270), reserved memory=20740MB
+epoch 0243, loss = 0.23784 (arap: 0.04687, reg: 0.07983, geo: 0.11115), reserved memory=20740MB
+epoch 0244, loss = 0.25042 (arap: 0.04837, reg: 0.09020, geo: 0.11184), reserved memory=20740MB
+Validation loss =  tensor(0.1833, device='cuda:0')
+epoch 0245, loss = 0.25906 (arap: 0.04902, reg: 0.09486, geo: 0.11518), reserved memory=20740MB
+epoch 0246, loss = 0.23942 (arap: 0.04748, reg: 0.08069, geo: 0.11125), reserved memory=20740MB
+epoch 0247, loss = 0.28881 (arap: 0.05166, reg: 0.11673, geo: 0.12043), reserved memory=20740MB
+epoch 0248, loss = 0.25234 (arap: 0.04864, reg: 0.08854, geo: 0.11515), reserved memory=20740MB
+epoch 0249, loss = 0.23580 (arap: 0.04666, reg: 0.07840, geo: 0.11074), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1620, device='cuda:0')
+epoch 0250, loss = 0.23373 (arap: 0.04617, reg: 0.07841, geo: 0.10915), reserved memory=20740MB
+epoch 0251, loss = 0.24075 (arap: 0.04707, reg: 0.08350, geo: 0.11018), reserved memory=20740MB
+epoch 0252, loss = 0.24233 (arap: 0.04742, reg: 0.08489, geo: 0.11002), reserved memory=20740MB
+epoch 0253, loss = 0.27180 (arap: 0.05032, reg: 0.10440, geo: 0.11708), reserved memory=20740MB
+epoch 0254, loss = 0.23889 (arap: 0.04684, reg: 0.08169, geo: 0.11036), reserved memory=20740MB
+Validation loss =  tensor(0.1578, device='cuda:0')
+epoch 0255, loss = 0.25832 (arap: 0.04863, reg: 0.09582, geo: 0.11387), reserved memory=20740MB
+epoch 0256, loss = 0.24959 (arap: 0.04824, reg: 0.08894, geo: 0.11240), reserved memory=20740MB
+epoch 0257, loss = 0.23671 (arap: 0.04656, reg: 0.08011, geo: 0.11003), reserved memory=20740MB
+epoch 0258, loss = 0.24900 (arap: 0.04809, reg: 0.08829, geo: 0.11262), reserved memory=20740MB
+epoch 0259, loss = 0.25620 (arap: 0.04842, reg: 0.09329, geo: 0.11449), reserved memory=20740MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1684, device='cuda:0')
+epoch 0260, loss = 0.23932 (arap: 0.04669, reg: 0.08271, geo: 0.10992), reserved memory=20740MB
+epoch 0261, loss = 0.23700 (arap: 0.04667, reg: 0.08082, geo: 0.10951), reserved memory=20740MB
+epoch 0262, loss = 0.24428 (arap: 0.04738, reg: 0.08561, geo: 0.11130), reserved memory=20740MB
+epoch 0263, loss = 0.23105 (arap: 0.04561, reg: 0.07664, geo: 0.10880), reserved memory=20740MB
+epoch 0264, loss = 0.24079 (arap: 0.04697, reg: 0.08450, geo: 0.10933), reserved memory=20740MB
+Validation loss =  tensor(0.1514, device='cuda:0')
+epoch 0265, loss = 0.23352 (arap: 0.04582, reg: 0.07882, geo: 0.10888), reserved memory=20788MB
+epoch 0266, loss = 0.25493 (arap: 0.04822, reg: 0.09393, geo: 0.11277), reserved memory=20788MB
+epoch 0267, loss = 0.24750 (arap: 0.04751, reg: 0.08831, geo: 0.11168), reserved memory=20788MB
+epoch 0268, loss = 0.24784 (arap: 0.04726, reg: 0.08929, geo: 0.11130), reserved memory=20788MB
+epoch 0269, loss = 0.27972 (arap: 0.05095, reg: 0.11323, geo: 0.11554), reserved memory=20788MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.2508, device='cuda:0')
+epoch 0270, loss = 0.26648 (arap: 0.04956, reg: 0.10100, geo: 0.11592), reserved memory=20788MB
+epoch 0271, loss = 0.23740 (arap: 0.04639, reg: 0.08025, geo: 0.11076), reserved memory=20788MB
+epoch 0272, loss = 0.23602 (arap: 0.04625, reg: 0.08026, geo: 0.10950), reserved memory=20788MB
+epoch 0273, loss = 0.22469 (arap: 0.04479, reg: 0.07247, geo: 0.10743), reserved memory=20788MB
+epoch 0274, loss = 0.23692 (arap: 0.04589, reg: 0.08272, geo: 0.10832), reserved memory=20788MB
+Validation loss =  tensor(0.1438, device='cuda:0')
+epoch 0275, loss = 0.23445 (arap: 0.04568, reg: 0.07999, geo: 0.10879), reserved memory=20788MB
+epoch 0276, loss = 0.22800 (arap: 0.04531, reg: 0.07601, geo: 0.10669), reserved memory=20788MB
+epoch 0277, loss = 0.23117 (arap: 0.04537, reg: 0.07796, geo: 0.10783), reserved memory=20788MB
+epoch 0278, loss = 0.23754 (arap: 0.04631, reg: 0.08247, geo: 0.10877), reserved memory=20788MB
+epoch 0279, loss = 0.23267 (arap: 0.04563, reg: 0.07792, geo: 0.10912), reserved memory=20788MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1622, device='cuda:0')
+epoch 0280, loss = 0.22777 (arap: 0.04495, reg: 0.07559, geo: 0.10723), reserved memory=20788MB
+epoch 0281, loss = 0.32129 (arap: 0.05389, reg: 0.14265, geo: 0.12475), reserved memory=20788MB
+epoch 0282, loss = 0.23610 (arap: 0.04602, reg: 0.07930, geo: 0.11078), reserved memory=20788MB
+epoch 0283, loss = 0.23671 (arap: 0.04520, reg: 0.08087, geo: 0.11064), reserved memory=20788MB
+epoch 0284, loss = 0.23875 (arap: 0.04607, reg: 0.08200, geo: 0.11068), reserved memory=20788MB
+Validation loss =  tensor(0.1547, device='cuda:0')
+epoch 0285, loss = 0.22855 (arap: 0.04485, reg: 0.07636, geo: 0.10734), reserved memory=20788MB
+epoch 0286, loss = 0.22888 (arap: 0.04497, reg: 0.07681, geo: 0.10709), reserved memory=20788MB
+epoch 0287, loss = 0.23047 (arap: 0.04513, reg: 0.07751, geo: 0.10783), reserved memory=20788MB
+epoch 0288, loss = 0.22382 (arap: 0.04452, reg: 0.07319, geo: 0.10611), reserved memory=20788MB
+epoch 0289, loss = 0.23731 (arap: 0.04573, reg: 0.08223, geo: 0.10935), reserved memory=20788MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1928, device='cuda:0')
+epoch 0290, loss = 0.24973 (arap: 0.04732, reg: 0.09063, geo: 0.11178), reserved memory=20788MB
+epoch 0291, loss = 0.24492 (arap: 0.04670, reg: 0.08679, geo: 0.11143), reserved memory=20788MB
+epoch 0292, loss = 0.22807 (arap: 0.04471, reg: 0.07568, geo: 0.10769), reserved memory=20788MB
+epoch 0293, loss = 0.23413 (arap: 0.04545, reg: 0.07996, geo: 0.10872), reserved memory=20788MB
+epoch 0294, loss = 0.22459 (arap: 0.04425, reg: 0.07327, geo: 0.10707), reserved memory=20788MB
+Validation loss =  tensor(0.1473, device='cuda:0')
+epoch 0295, loss = 0.22350 (arap: 0.04414, reg: 0.07321, geo: 0.10615), reserved memory=20788MB
+epoch 0296, loss = 0.22298 (arap: 0.04383, reg: 0.07340, geo: 0.10575), reserved memory=20788MB
+epoch 0297, loss = 0.22222 (arap: 0.04385, reg: 0.07263, geo: 0.10574), reserved memory=20788MB
+epoch 0298, loss = 0.23841 (arap: 0.04572, reg: 0.08368, geo: 0.10901), reserved memory=20788MB
+epoch 0299, loss = 0.22123 (arap: 0.04392, reg: 0.07139, geo: 0.10592), reserved memory=20788MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1401, device='cuda:0')
+epoch 0300, loss = 0.22294 (arap: 0.04408, reg: 0.07363, geo: 0.10523), reserved memory=20798MB
+epoch 0301, loss = 0.22292 (arap: 0.04385, reg: 0.07365, geo: 0.10542), reserved memory=20798MB
+epoch 0302, loss = 0.22043 (arap: 0.04359, reg: 0.07205, geo: 0.10479), reserved memory=20798MB
+epoch 0303, loss = 0.30335 (arap: 0.05322, reg: 0.13032, geo: 0.11981), reserved memory=20798MB
+epoch 0304, loss = 0.33471 (arap: 0.05694, reg: 0.15183, geo: 0.12594), reserved memory=20798MB
+Validation loss =  tensor(0.1698, device='cuda:0')
+epoch 0305, loss = 0.24017 (arap: 0.04635, reg: 0.08334, geo: 0.11048), reserved memory=20798MB
+epoch 0306, loss = 0.23140 (arap: 0.04515, reg: 0.07801, geo: 0.10824), reserved memory=20798MB
+epoch 0307, loss = 0.22600 (arap: 0.04418, reg: 0.07442, geo: 0.10740), reserved memory=20798MB
+epoch 0308, loss = 0.22100 (arap: 0.04369, reg: 0.07233, geo: 0.10498), reserved memory=20798MB
+epoch 0309, loss = 0.22222 (arap: 0.04384, reg: 0.07302, geo: 0.10536), reserved memory=20798MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1584, device='cuda:0')
+epoch 0310, loss = 0.21972 (arap: 0.04331, reg: 0.07139, geo: 0.10502), reserved memory=20798MB
+epoch 0311, loss = 0.21789 (arap: 0.04294, reg: 0.07020, geo: 0.10475), reserved memory=20798MB
+epoch 0312, loss = 0.22028 (arap: 0.04334, reg: 0.07237, geo: 0.10456), reserved memory=20798MB
+epoch 0313, loss = 0.21975 (arap: 0.04335, reg: 0.07194, geo: 0.10446), reserved memory=20798MB
+epoch 0314, loss = 0.21761 (arap: 0.04293, reg: 0.07027, geo: 0.10441), reserved memory=20798MB
+Validation loss =  tensor(0.1436, device='cuda:0')
+epoch 0315, loss = 0.22575 (arap: 0.04409, reg: 0.07579, geo: 0.10586), reserved memory=20798MB
+epoch 0316, loss = 0.23266 (arap: 0.04467, reg: 0.08144, geo: 0.10655), reserved memory=20798MB
+epoch 0317, loss = 0.22588 (arap: 0.04415, reg: 0.07580, geo: 0.10593), reserved memory=20798MB
+epoch 0318, loss = 0.23928 (arap: 0.04539, reg: 0.08522, geo: 0.10867), reserved memory=20798MB
+epoch 0319, loss = 0.22471 (arap: 0.04376, reg: 0.07467, geo: 0.10628), reserved memory=20798MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1679, device='cuda:0')
+epoch 0320, loss = 0.27746 (arap: 0.04971, reg: 0.11226, geo: 0.11549), reserved memory=20798MB
+epoch 0321, loss = 0.30222 (arap: 0.05492, reg: 0.12453, geo: 0.12277), reserved memory=20798MB
+epoch 0322, loss = 0.22331 (arap: 0.04412, reg: 0.07216, geo: 0.10703), reserved memory=20798MB
+epoch 0323, loss = 0.21995 (arap: 0.04349, reg: 0.07101, geo: 0.10545), reserved memory=20798MB
+epoch 0324, loss = 0.22007 (arap: 0.04342, reg: 0.07152, geo: 0.10514), reserved memory=20798MB
+Validation loss =  tensor(0.1430, device='cuda:0')
+epoch 0325, loss = 0.21811 (arap: 0.04313, reg: 0.07073, geo: 0.10426), reserved memory=20798MB
+epoch 0326, loss = 0.23568 (arap: 0.04431, reg: 0.08478, geo: 0.10660), reserved memory=20798MB
+epoch 0327, loss = 0.25178 (arap: 0.04697, reg: 0.09357, geo: 0.11124), reserved memory=20798MB
+epoch 0328, loss = 0.25159 (arap: 0.04650, reg: 0.09348, geo: 0.11160), reserved memory=20798MB
+epoch 0329, loss = 0.23115 (arap: 0.04474, reg: 0.07834, geo: 0.10806), reserved memory=20798MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1429, device='cuda:0')
+epoch 0330, loss = 0.21990 (arap: 0.04325, reg: 0.07191, geo: 0.10474), reserved memory=20798MB
+epoch 0331, loss = 0.21607 (arap: 0.04293, reg: 0.06956, geo: 0.10359), reserved memory=20798MB
+epoch 0332, loss = 0.22527 (arap: 0.04388, reg: 0.07546, geo: 0.10594), reserved memory=20798MB
+epoch 0333, loss = 0.21895 (arap: 0.04315, reg: 0.07140, geo: 0.10440), reserved memory=20798MB
+epoch 0334, loss = 0.21837 (arap: 0.04315, reg: 0.07156, geo: 0.10366), reserved memory=20798MB
+Validation loss =  tensor(0.1497, device='cuda:0')
+epoch 0335, loss = 0.21436 (arap: 0.04250, reg: 0.06839, geo: 0.10346), reserved memory=20798MB
+epoch 0336, loss = 0.21935 (arap: 0.04318, reg: 0.07226, geo: 0.10391), reserved memory=20798MB
+epoch 0337, loss = 0.21463 (arap: 0.04242, reg: 0.06881, geo: 0.10340), reserved memory=20798MB
+epoch 0338, loss = 0.23293 (arap: 0.04423, reg: 0.08134, geo: 0.10737), reserved memory=20798MB
+epoch 0339, loss = 0.21990 (arap: 0.04304, reg: 0.07247, geo: 0.10440), reserved memory=20798MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_05_28__10_30_03
+Validation loss =  tensor(0.1390, device='cuda:0')
+epoch 0340, loss = 0.21356 (arap: 0.04234, reg: 0.06809, geo: 0.10313), reserved memory=20798MB

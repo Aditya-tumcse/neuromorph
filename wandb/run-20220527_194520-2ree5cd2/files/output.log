@@ -1,0 +1,6 @@
+
+epoch 0000, loss = 4.18004 (arap: 0.03233, reg: 3.66453, geo: 0.48318), reserved memory=8138MB
+epoch 0001, loss = 1.34595 (arap: 0.07252, reg: 0.95769, geo: 0.31575), reserved memory=8138MB
+epoch 0002, loss = 1.10619 (arap: 0.10630, reg: 0.69243, geo: 0.30746), reserved memory=8138MB
+epoch 0003, loss = 1.00986 (arap: 0.11067, reg: 0.60157, geo: 0.29762), reserved memory=8138MB
+epoch 0004, loss = 0.95626 (arap: 0.11185, reg: 0.55304, geo: 0.29138), reserved memory=8138MB

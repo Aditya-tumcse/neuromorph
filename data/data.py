@@ -38,6 +38,9 @@ def batch_to_shape(batch):
 
     if "vert_full" in batch:
         shape.vert_full = batch["vert_full"].squeeze().to(device)
+    
+    if "category" in batch:
+        shape.category = batch["category"][0]
 
     return shape
 
@@ -54,6 +57,8 @@ class ShapeDatasetBase(torch.utils.data.Dataset):
         shape_files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
         shape_files.sort()
         return os.path.join(folder_path, shape_files[i])
+
+    
 
 
 class ShapeDatasetInMemory(ShapeDatasetBase):
@@ -72,9 +77,12 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
     def _init_data(self):
         for i in range(self.num_shapes):
             file_name = self._get_file(self._get_index(i))
+            category_name = self._get_category(file_name)
             load_data = scipy.io.loadmat(file_name)
 
             data_curr = input_to_batch(load_data["X"][0])
+
+            data_curr["Category"] = category_name
 
             print("Loaded file ", file_name, "")
 
@@ -87,6 +95,10 @@ class ShapeDatasetInMemory(ShapeDatasetBase):
                 print("Loaded file ", file_name, "")
 
             self.data.append(data_curr)
+            
+
+    def _get_category(self,file_name):
+        return file_name.split("/")[-1].partition("shape")[0][:-1]
 
     def _get_file(self, i):
         return self._get_file_from_folder(i, self.folder_path)
@@ -177,6 +189,7 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
 
         data_new["X"]["vert_full"] = data_curr["X"]["vert"]
         data_new["Y"]["vert_full"] = data_curr["Y"]["vert"]
+        
         data_new["X"]["idx"] = idx_x
         data_new["Y"]["idx"] = idx_y
 
@@ -198,6 +211,9 @@ class ShapeDatasetCombineRemesh(ShapeDatasetBase):
             data_new["Y"]["idx"] = idx_y
 
         data_new["axis"] = self.axis
+
+        data_new["X"]["category"] = data_curr["X"]["Category"]
+        data_new["Y"]["category"] = data_curr["Y"]["Category"]
 
         return data_new
 
@@ -293,7 +309,7 @@ class Smal_train(ShapeDatasetCombine):
 
 class Smal_test(ShapeDatasetCombine):
     def __init__(self, resolution=None, num_shapes=10, load_dist_mat=False, load_sub=False):
-        super().__init__(get_smal_folder(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
+        super().__init__(get_smal_folder_aligned(resolution), num_shapes, load_dist_mat=load_dist_mat, load_sub=load_sub)
 
     def dataset_name_str(self):
         return "SMAL_test"

@@ -1,0 +1,37 @@
+certifi==2021.10.8
+charset-normalizer==2.0.12
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+dataclasses==0.6
+fonttools==4.25.0
+idna==3.3
+Jinja2==3.1.1
+joblib==1.1.0
+kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
+MarkupSafe==2.1.1
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1647441664166/work
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186064646/work
+mkl-service==2.4.0
+munkres==1.1.4
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1649782759471/work
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.2
+Pillow==9.0.1
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2022.1
+requests==2.27.1
+scikit-learn==1.0.2
+scipy==1.8.0
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+threadpoolctl==3.1.0
+torch==1.11.0
+torch-geometric==2.0.4
+torch-scatter==2.0.9
+torch-sparse==0.6.13
+torchvision==0.8.1
+tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
+tqdm==4.64.0
+typing_extensions==4.1.1
+urllib3==1.26.9

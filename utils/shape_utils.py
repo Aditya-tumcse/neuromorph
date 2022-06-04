@@ -49,6 +49,7 @@ class Shape:
         self.D = None
         self.sub = None
         self.vert_full = None
+        self.category = None
 
         if not self.triv is None:
             self.triv = self.triv.to(dtype=torch.long)

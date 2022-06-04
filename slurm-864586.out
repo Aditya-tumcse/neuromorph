@@ -1,0 +1,438 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda/11.3"
+
+Please check the spelling or version number. Also try "module spider ..."
+
+
+
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_009.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_009.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_010.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_010.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_011.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_011.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_012.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_012.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_013.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_013.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_014.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_014.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/dogs_shape_015.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/dogs_shape_015.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/hippos_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/hippos_shape_005.mat 
+loaded SMAL_train with 1521 pairs
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_009.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_010.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_011.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_012.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_013.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_014.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/dogs_shape_015.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/hippos_shape_005.mat 
+Using the precomputed remeshings of SMAL_train
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/cows_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/distance_matrix/cows_shape_000.mat 
+loaded SMAL_test with 100 pairs
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_000.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_001.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_002.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_003.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_004.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_005.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_006.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_007.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/big_cats_shape_008.mat 
+Loaded file  /usr/data/cvpr_shared/marvin/Data/Neuromorph/SMAL_new/aligned/sub_2000/remeshing_idx/cows_shape_000.mat 
+Using the precomputed remeshings of SMAL_test
+Time stamp:  2022_06_02__11_11_02
+parameters: 
+increase_thresh :  800   method :  arap   in_mod :  <class 'model.interpolation_net.InterpolationModGeoEC'>   load_dist_mat :  True   load_sub :  True   
+parameters: 
+lr :  0.0001   num_it :  600   batch_size :  8   num_timesteps :  1   hidden_dim :  128   lambd :  1   lambd_geo :  50   log_freq :  10   val_freq :  5   log :  True   
+Uses module 'InterpolationModGeoEC'
+Uses settings module 'SettingsFaust'
+Uses preprocessing module 'PreprocessRotateSame'
+start training ...
+wandb: Currently logged in as: srinivas-adi (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.12.17 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.14
+wandb: Run data is saved locally in /usr/stud/srinivaa/code/neuromorph/wandb/run-20220602_111103-302oy85f
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gentle-river-1
+wandb: ⭐️ View project at https://wandb.ai/srinivas-adi/Neuromorph_SMAL_aligned_reduced_time_steps
+wandb: 🚀 View run at https://wandb.ai/srinivas-adi/Neuromorph_SMAL_aligned_reduced_time_steps/runs/302oy85f
+epoch 0000, loss = 4.07882 (arap: 0.03700, reg: 3.58024, geo: 0.46158), reserved memory=5082MB
+epoch 0001, loss = 1.54931 (arap: 0.08967, reg: 1.15191, geo: 0.30772), reserved memory=5082MB
+epoch 0002, loss = 1.39782 (arap: 0.13071, reg: 0.96912, geo: 0.29799), reserved memory=5084MB
+epoch 0003, loss = 1.24531 (arap: 0.15943, reg: 0.79593, geo: 0.28995), reserved memory=5084MB
+epoch 0004, loss = 1.18103 (arap: 0.16190, reg: 0.73541, geo: 0.28372), reserved memory=5084MB
+Validation loss =  tensor(1.0980, device='cuda:0')
+epoch 0005, loss = 1.17620 (arap: 0.17010, reg: 0.73326, geo: 0.27284), reserved memory=5288MB
+epoch 0006, loss = 1.10987 (arap: 0.16902, reg: 0.67238, geo: 0.26847), reserved memory=5288MB
+epoch 0007, loss = 1.10521 (arap: 0.16641, reg: 0.67302, geo: 0.26578), reserved memory=5288MB
+epoch 0008, loss = 1.03976 (arap: 0.16026, reg: 0.62049, geo: 0.25901), reserved memory=5288MB
+epoch 0009, loss = 1.06535 (arap: 0.16007, reg: 0.64693, geo: 0.25835), reserved memory=5288MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(1.0138, device='cuda:0')
+epoch 0010, loss = 1.03837 (arap: 0.15910, reg: 0.62653, geo: 0.25274), reserved memory=5644MB
+epoch 0011, loss = 1.04264 (arap: 0.16000, reg: 0.63143, geo: 0.25120), reserved memory=5644MB
+epoch 0012, loss = 1.00969 (arap: 0.15961, reg: 0.60227, geo: 0.24781), reserved memory=5644MB
+epoch 0013, loss = 1.01045 (arap: 0.15790, reg: 0.60740, geo: 0.24516), reserved memory=5644MB
+epoch 0014, loss = 1.01257 (arap: 0.15805, reg: 0.61317, geo: 0.24135), reserved memory=5644MB
+Validation loss =  tensor(1.0986, device='cuda:0')
+epoch 0015, loss = 0.96882 (arap: 0.15798, reg: 0.57186, geo: 0.23898), reserved memory=5782MB
+epoch 0016, loss = 0.94186 (arap: 0.15560, reg: 0.55183, geo: 0.23442), reserved memory=5782MB
+epoch 0017, loss = 0.93957 (arap: 0.15525, reg: 0.55109, geo: 0.23323), reserved memory=5782MB
+epoch 0018, loss = 0.89163 (arap: 0.15115, reg: 0.51273, geo: 0.22775), reserved memory=5782MB
+epoch 0019, loss = 0.95321 (arap: 0.15328, reg: 0.57005, geo: 0.22988), reserved memory=5782MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.9020, device='cuda:0')
+epoch 0020, loss = 0.89328 (arap: 0.15237, reg: 0.51587, geo: 0.22505), reserved memory=5782MB
+epoch 0021, loss = 0.93220 (arap: 0.15330, reg: 0.55211, geo: 0.22679), reserved memory=5782MB
+epoch 0022, loss = 0.93567 (arap: 0.15541, reg: 0.55283, geo: 0.22743), reserved memory=5782MB
+epoch 0023, loss = 0.94154 (arap: 0.15393, reg: 0.56127, geo: 0.22634), reserved memory=5782MB
+epoch 0024, loss = 0.88696 (arap: 0.15660, reg: 0.50988, geo: 0.22048), reserved memory=5782MB
+Validation loss =  tensor(0.8212, device='cuda:0')
+epoch 0025, loss = 0.88515 (arap: 0.15326, reg: 0.51274, geo: 0.21916), reserved memory=5830MB
+epoch 0026, loss = 0.87012 (arap: 0.15320, reg: 0.50029, geo: 0.21663), reserved memory=5830MB
+epoch 0027, loss = 0.86041 (arap: 0.15418, reg: 0.49170, geo: 0.21453), reserved memory=5830MB
+epoch 0028, loss = 0.86528 (arap: 0.15441, reg: 0.49580, geo: 0.21506), reserved memory=5830MB
+epoch 0029, loss = 0.85193 (arap: 0.15300, reg: 0.48778, geo: 0.21115), reserved memory=5830MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.8691, device='cuda:0')
+epoch 0030, loss = 0.85138 (arap: 0.15368, reg: 0.48834, geo: 0.20936), reserved memory=5830MB
+epoch 0031, loss = 0.86384 (arap: 0.15363, reg: 0.49980, geo: 0.21041), reserved memory=5830MB
+epoch 0032, loss = 0.82940 (arap: 0.15262, reg: 0.47101, geo: 0.20577), reserved memory=5830MB
+epoch 0033, loss = 0.81298 (arap: 0.15390, reg: 0.45244, geo: 0.20664), reserved memory=5830MB
+epoch 0034, loss = 0.80975 (arap: 0.15329, reg: 0.45322, geo: 0.20325), reserved memory=5830MB
+Validation loss =  tensor(0.6849, device='cuda:0')
+epoch 0035, loss = 0.83003 (arap: 0.15382, reg: 0.47174, geo: 0.20447), reserved memory=5830MB
+epoch 0036, loss = 0.79736 (arap: 0.15154, reg: 0.44576, geo: 0.20006), reserved memory=5830MB
+epoch 0037, loss = 0.82266 (arap: 0.15504, reg: 0.46841, geo: 0.19921), reserved memory=5830MB
+epoch 0038, loss = 0.78436 (arap: 0.15137, reg: 0.43443, geo: 0.19856), reserved memory=5830MB
+epoch 0039, loss = 0.79354 (arap: 0.15088, reg: 0.44522, geo: 0.19744), reserved memory=5830MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.7124, device='cuda:0')
+epoch 0040, loss = 0.77246 (arap: 0.15137, reg: 0.42678, geo: 0.19431), reserved memory=6166MB
+epoch 0041, loss = 0.76361 (arap: 0.15162, reg: 0.42019, geo: 0.19181), reserved memory=6166MB
+epoch 0042, loss = 0.76464 (arap: 0.14960, reg: 0.42395, geo: 0.19108), reserved memory=6166MB
+epoch 0043, loss = 0.77804 (arap: 0.15361, reg: 0.43237, geo: 0.19206), reserved memory=6166MB
+epoch 0044, loss = 0.73658 (arap: 0.14899, reg: 0.39834, geo: 0.18926), reserved memory=6166MB
+Validation loss =  tensor(0.6577, device='cuda:0')
+epoch 0045, loss = 0.75089 (arap: 0.14986, reg: 0.41335, geo: 0.18768), reserved memory=6166MB
+epoch 0046, loss = 0.76281 (arap: 0.15086, reg: 0.42401, geo: 0.18795), reserved memory=6166MB
+epoch 0047, loss = 0.73894 (arap: 0.14747, reg: 0.40700, geo: 0.18447), reserved memory=6166MB
+wandb: Network error (ConnectionError), entering retry loop.
+epoch 0048, loss = 0.72696 (arap: 0.14780, reg: 0.39539, geo: 0.18377), reserved memory=6166MB
+epoch 0049, loss = 0.76570 (arap: 0.15150, reg: 0.42544, geo: 0.18876), reserved memory=6166MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.6165, device='cuda:0')
+epoch 0050, loss = 0.70428 (arap: 0.14709, reg: 0.37359, geo: 0.18360), reserved memory=6166MB
+epoch 0051, loss = 0.72947 (arap: 0.14936, reg: 0.39655, geo: 0.18355), reserved memory=6166MB
+epoch 0052, loss = 0.69870 (arap: 0.14590, reg: 0.37131, geo: 0.18148), reserved memory=6166MB
+epoch 0053, loss = 0.69365 (arap: 0.14741, reg: 0.36794, geo: 0.17831), reserved memory=6166MB
+epoch 0054, loss = 0.73542 (arap: 0.15089, reg: 0.40464, geo: 0.17989), reserved memory=6166MB
+Validation loss =  tensor(0.5957, device='cuda:0')
+epoch 0055, loss = 0.71788 (arap: 0.14825, reg: 0.38846, geo: 0.18117), reserved memory=6166MB
+epoch 0056, loss = 0.72145 (arap: 0.14778, reg: 0.39075, geo: 0.18291), reserved memory=6166MB
+epoch 0057, loss = 0.70486 (arap: 0.14947, reg: 0.37869, geo: 0.17670), reserved memory=6166MB
+epoch 0058, loss = 0.71143 (arap: 0.14856, reg: 0.38536, geo: 0.17751), reserved memory=6166MB
+epoch 0059, loss = 0.69339 (arap: 0.14623, reg: 0.37088, geo: 0.17628), reserved memory=6166MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.5975, device='cuda:0')
+epoch 0060, loss = 0.67930 (arap: 0.14568, reg: 0.36061, geo: 0.17301), reserved memory=6166MB
+epoch 0061, loss = 0.66737 (arap: 0.14637, reg: 0.34925, geo: 0.17175), reserved memory=6166MB
+epoch 0062, loss = 0.66890 (arap: 0.14586, reg: 0.35259, geo: 0.17045), reserved memory=6166MB
+epoch 0063, loss = 0.66723 (arap: 0.14465, reg: 0.35179, geo: 0.17080), reserved memory=6166MB
+epoch 0064, loss = 0.67993 (arap: 0.14668, reg: 0.36276, geo: 0.17048), reserved memory=6166MB
+Validation loss =  tensor(0.6452, device='cuda:0')
+epoch 0065, loss = 0.65189 (arap: 0.14303, reg: 0.33936, geo: 0.16951), reserved memory=6166MB
+epoch 0066, loss = 0.65757 (arap: 0.14349, reg: 0.34471, geo: 0.16937), reserved memory=6166MB
+epoch 0067, loss = 0.66566 (arap: 0.14450, reg: 0.35116, geo: 0.17000), reserved memory=6166MB
+epoch 0068, loss = 0.64531 (arap: 0.14300, reg: 0.33502, geo: 0.16730), reserved memory=6166MB
+epoch 0069, loss = 0.65887 (arap: 0.14663, reg: 0.34511, geo: 0.16713), reserved memory=6166MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.5453, device='cuda:0')
+epoch 0070, loss = 0.63571 (arap: 0.14067, reg: 0.33066, geo: 0.16438), reserved memory=6166MB
+epoch 0071, loss = 0.61712 (arap: 0.14076, reg: 0.31400, geo: 0.16236), reserved memory=6166MB
+epoch 0072, loss = 0.63451 (arap: 0.14134, reg: 0.32895, geo: 0.16422), reserved memory=6166MB
+epoch 0073, loss = 0.61390 (arap: 0.14062, reg: 0.31168, geo: 0.16160), reserved memory=6166MB
+epoch 0074, loss = 0.64383 (arap: 0.14259, reg: 0.33603, geo: 0.16522), reserved memory=6166MB
+Validation loss =  tensor(0.5176, device='cuda:0')
+epoch 0075, loss = 0.64347 (arap: 0.14360, reg: 0.33665, geo: 0.16322), reserved memory=6170MB
+epoch 0076, loss = 0.66510 (arap: 0.14288, reg: 0.35618, geo: 0.16604), reserved memory=6170MB
+epoch 0077, loss = 0.60746 (arap: 0.14011, reg: 0.30738, geo: 0.15997), reserved memory=6170MB
+epoch 0078, loss = 0.60829 (arap: 0.13958, reg: 0.31000, geo: 0.15872), reserved memory=6170MB
+epoch 0079, loss = 0.61919 (arap: 0.14179, reg: 0.31744, geo: 0.15996), reserved memory=6170MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.4613, device='cuda:0')
+epoch 0080, loss = 0.61832 (arap: 0.14006, reg: 0.31959, geo: 0.15868), reserved memory=6458MB
+epoch 0081, loss = 0.62848 (arap: 0.14116, reg: 0.32721, geo: 0.16011), reserved memory=6458MB
+epoch 0082, loss = 0.59563 (arap: 0.13841, reg: 0.29984, geo: 0.15737), reserved memory=6458MB
+epoch 0083, loss = 0.57670 (arap: 0.13604, reg: 0.28420, geo: 0.15646), reserved memory=6458MB
+epoch 0084, loss = 0.58247 (arap: 0.13688, reg: 0.29117, geo: 0.15442), reserved memory=6458MB
+Validation loss =  tensor(0.6081, device='cuda:0')
+epoch 0085, loss = 0.58097 (arap: 0.13682, reg: 0.29133, geo: 0.15281), reserved memory=6458MB
+epoch 0086, loss = 0.57925 (arap: 0.13658, reg: 0.28892, geo: 0.15375), reserved memory=6458MB
+epoch 0087, loss = 0.59686 (arap: 0.13724, reg: 0.30370, geo: 0.15593), reserved memory=6458MB
+epoch 0088, loss = 0.61142 (arap: 0.13833, reg: 0.31588, geo: 0.15720), reserved memory=6458MB
+epoch 0089, loss = 0.59824 (arap: 0.13925, reg: 0.30471, geo: 0.15428), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.4590, device='cuda:0')
+epoch 0090, loss = 0.58041 (arap: 0.13642, reg: 0.29235, geo: 0.15165), reserved memory=6458MB
+epoch 0091, loss = 0.55815 (arap: 0.13456, reg: 0.27429, geo: 0.14929), reserved memory=6458MB
+epoch 0092, loss = 0.56512 (arap: 0.13499, reg: 0.28083, geo: 0.14931), reserved memory=6458MB
+epoch 0093, loss = 0.54506 (arap: 0.13231, reg: 0.26459, geo: 0.14816), reserved memory=6458MB
+epoch 0094, loss = 0.53854 (arap: 0.13265, reg: 0.25875, geo: 0.14714), reserved memory=6458MB
+Validation loss =  tensor(0.4287, device='cuda:0')
+epoch 0095, loss = 0.55391 (arap: 0.13321, reg: 0.27210, geo: 0.14860), reserved memory=6458MB
+epoch 0096, loss = 0.58662 (arap: 0.13564, reg: 0.29775, geo: 0.15323), reserved memory=6458MB
+epoch 0097, loss = 0.54912 (arap: 0.13205, reg: 0.26964, geo: 0.14744), reserved memory=6458MB
+epoch 0098, loss = 0.54007 (arap: 0.13198, reg: 0.26073, geo: 0.14735), reserved memory=6458MB
+epoch 0099, loss = 0.55841 (arap: 0.13343, reg: 0.27707, geo: 0.14791), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.4300, device='cuda:0')
+epoch 0100, loss = 0.54608 (arap: 0.13278, reg: 0.26595, geo: 0.14735), reserved memory=6458MB
+epoch 0101, loss = 0.53563 (arap: 0.13046, reg: 0.26008, geo: 0.14508), reserved memory=6458MB
+epoch 0102, loss = 0.53860 (arap: 0.13078, reg: 0.26294, geo: 0.14488), reserved memory=6458MB
+epoch 0103, loss = 0.55084 (arap: 0.13232, reg: 0.27122, geo: 0.14730), reserved memory=6458MB
+epoch 0104, loss = 0.58845 (arap: 0.13393, reg: 0.30131, geo: 0.15321), reserved memory=6458MB
+Validation loss =  tensor(0.4703, device='cuda:0')
+epoch 0105, loss = 0.53149 (arap: 0.12992, reg: 0.25507, geo: 0.14651), reserved memory=6458MB
+epoch 0106, loss = 0.51670 (arap: 0.12860, reg: 0.24456, geo: 0.14354), reserved memory=6458MB
+epoch 0107, loss = 0.52135 (arap: 0.12829, reg: 0.25050, geo: 0.14257), reserved memory=6458MB
+epoch 0108, loss = 0.51852 (arap: 0.12837, reg: 0.24784, geo: 0.14231), reserved memory=6458MB
+epoch 0109, loss = 0.52868 (arap: 0.12888, reg: 0.25676, geo: 0.14304), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.4180, device='cuda:0')
+epoch 0110, loss = 0.51128 (arap: 0.12693, reg: 0.24206, geo: 0.14229), reserved memory=6458MB
+epoch 0111, loss = 0.50371 (arap: 0.12679, reg: 0.23545, geo: 0.14147), reserved memory=6458MB
+epoch 0112, loss = 0.52688 (arap: 0.12912, reg: 0.25539, geo: 0.14238), reserved memory=6458MB
+epoch 0113, loss = 0.50102 (arap: 0.12496, reg: 0.23624, geo: 0.13982), reserved memory=6458MB
+epoch 0114, loss = 0.55961 (arap: 0.13151, reg: 0.28282, geo: 0.14528), reserved memory=6458MB
+Validation loss =  tensor(0.4158, device='cuda:0')
+epoch 0115, loss = 0.51294 (arap: 0.12656, reg: 0.24400, geo: 0.14238), reserved memory=6458MB
+epoch 0116, loss = 0.51604 (arap: 0.12681, reg: 0.24699, geo: 0.14223), reserved memory=6458MB
+epoch 0117, loss = 0.49397 (arap: 0.12440, reg: 0.23058, geo: 0.13899), reserved memory=6458MB
+epoch 0118, loss = 0.55432 (arap: 0.13029, reg: 0.27559, geo: 0.14845), reserved memory=6458MB
+epoch 0119, loss = 0.49586 (arap: 0.12334, reg: 0.23295, geo: 0.13958), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.3446, device='cuda:0')
+epoch 0120, loss = 0.49943 (arap: 0.12385, reg: 0.23710, geo: 0.13849), reserved memory=6458MB
+epoch 0121, loss = 0.48804 (arap: 0.12323, reg: 0.22590, geo: 0.13891), reserved memory=6458MB
+epoch 0122, loss = 0.49534 (arap: 0.12381, reg: 0.23226, geo: 0.13926), reserved memory=6458MB
+epoch 0123, loss = 0.50233 (arap: 0.12536, reg: 0.23944, geo: 0.13753), reserved memory=6458MB
+epoch 0124, loss = 0.47018 (arap: 0.12073, reg: 0.21307, geo: 0.13637), reserved memory=6458MB
+Validation loss =  tensor(0.3802, device='cuda:0')
+epoch 0125, loss = 0.48275 (arap: 0.12089, reg: 0.22404, geo: 0.13782), reserved memory=6458MB
+epoch 0126, loss = 0.46915 (arap: 0.12028, reg: 0.21290, geo: 0.13597), reserved memory=6458MB
+epoch 0127, loss = 0.49526 (arap: 0.12251, reg: 0.23332, geo: 0.13943), reserved memory=6458MB
+epoch 0128, loss = 0.48585 (arap: 0.12174, reg: 0.22670, geo: 0.13740), reserved memory=6458MB
+epoch 0129, loss = 0.47628 (arap: 0.12088, reg: 0.21936, geo: 0.13604), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.3415, device='cuda:0')
+epoch 0130, loss = 0.46959 (arap: 0.11897, reg: 0.21498, geo: 0.13565), reserved memory=6458MB
+epoch 0131, loss = 0.45761 (arap: 0.11807, reg: 0.20522, geo: 0.13431), reserved memory=6458MB
+epoch 0132, loss = 0.45757 (arap: 0.11778, reg: 0.20519, geo: 0.13459), reserved memory=6458MB
+epoch 0133, loss = 0.48384 (arap: 0.11973, reg: 0.22713, geo: 0.13698), reserved memory=6458MB
+epoch 0134, loss = 0.52683 (arap: 0.12510, reg: 0.25950, geo: 0.14223), reserved memory=6458MB
+Validation loss =  tensor(0.3438, device='cuda:0')
+epoch 0135, loss = 0.48090 (arap: 0.12015, reg: 0.22361, geo: 0.13714), reserved memory=6458MB
+epoch 0136, loss = 0.46255 (arap: 0.11790, reg: 0.20937, geo: 0.13528), reserved memory=6458MB
+epoch 0137, loss = 0.45638 (arap: 0.11786, reg: 0.20390, geo: 0.13461), reserved memory=6458MB
+epoch 0138, loss = 0.46493 (arap: 0.11777, reg: 0.21265, geo: 0.13451), reserved memory=6458MB
+epoch 0139, loss = 0.51342 (arap: 0.12143, reg: 0.25103, geo: 0.14096), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.3199, device='cuda:0')
+epoch 0140, loss = 0.46736 (arap: 0.11859, reg: 0.21440, geo: 0.13437), reserved memory=6458MB
+epoch 0141, loss = 0.46696 (arap: 0.11791, reg: 0.21364, geo: 0.13541), reserved memory=6458MB
+epoch 0142, loss = 0.46248 (arap: 0.11734, reg: 0.21072, geo: 0.13441), reserved memory=6458MB
+epoch 0143, loss = 0.44612 (arap: 0.11515, reg: 0.19890, geo: 0.13208), reserved memory=6458MB
+epoch 0144, loss = 0.47718 (arap: 0.11841, reg: 0.22296, geo: 0.13581), reserved memory=6458MB
+Validation loss =  tensor(0.3786, device='cuda:0')
+epoch 0145, loss = 0.46556 (arap: 0.11677, reg: 0.21428, geo: 0.13451), reserved memory=6458MB
+epoch 0146, loss = 0.44032 (arap: 0.11465, reg: 0.19371, geo: 0.13195), reserved memory=6458MB
+epoch 0147, loss = 0.43440 (arap: 0.11271, reg: 0.19093, geo: 0.13076), reserved memory=6458MB
+epoch 0148, loss = 0.43265 (arap: 0.11331, reg: 0.18937, geo: 0.12998), reserved memory=6458MB
+epoch 0149, loss = 0.47082 (arap: 0.11774, reg: 0.21822, geo: 0.13485), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.4809, device='cuda:0')
+epoch 0150, loss = 0.47905 (arap: 0.11833, reg: 0.22359, geo: 0.13713), reserved memory=6458MB
+epoch 0151, loss = 0.47515 (arap: 0.11652, reg: 0.22179, geo: 0.13684), reserved memory=6458MB
+epoch 0152, loss = 0.43738 (arap: 0.11391, reg: 0.19095, geo: 0.13251), reserved memory=6458MB
+epoch 0153, loss = 0.44701 (arap: 0.11333, reg: 0.20160, geo: 0.13207), reserved memory=6458MB
+epoch 0154, loss = 0.44820 (arap: 0.11432, reg: 0.20001, geo: 0.13386), reserved memory=6458MB
+Validation loss =  tensor(0.3085, device='cuda:0')
+epoch 0155, loss = 0.42260 (arap: 0.11143, reg: 0.18026, geo: 0.13091), reserved memory=6458MB
+epoch 0156, loss = 0.41944 (arap: 0.11047, reg: 0.17992, geo: 0.12905), reserved memory=6458MB
+epoch 0157, loss = 0.41685 (arap: 0.10993, reg: 0.17796, geo: 0.12897), reserved memory=6458MB
+epoch 0158, loss = 0.42458 (arap: 0.11127, reg: 0.18356, geo: 0.12975), reserved memory=6458MB
+epoch 0159, loss = 0.40536 (arap: 0.10862, reg: 0.16910, geo: 0.12764), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.2877, device='cuda:0')
+epoch 0160, loss = 0.42776 (arap: 0.11057, reg: 0.18760, geo: 0.12960), reserved memory=6458MB
+epoch 0161, loss = 0.43608 (arap: 0.11204, reg: 0.19242, geo: 0.13162), reserved memory=6458MB
+epoch 0162, loss = 0.39818 (arap: 0.10688, reg: 0.16473, geo: 0.12657), reserved memory=6458MB
+epoch 0163, loss = 0.40146 (arap: 0.10712, reg: 0.16720, geo: 0.12715), reserved memory=6458MB
+epoch 0164, loss = 0.41166 (arap: 0.10848, reg: 0.17640, geo: 0.12678), reserved memory=6458MB
+Validation loss =  tensor(0.3117, device='cuda:0')
+epoch 0165, loss = 0.40908 (arap: 0.10821, reg: 0.17355, geo: 0.12732), reserved memory=6458MB
+epoch 0166, loss = 0.48733 (arap: 0.11722, reg: 0.23440, geo: 0.13571), reserved memory=6458MB
+epoch 0167, loss = 0.43602 (arap: 0.11177, reg: 0.19355, geo: 0.13070), reserved memory=6458MB
+epoch 0168, loss = 0.43445 (arap: 0.11159, reg: 0.19258, geo: 0.13027), reserved memory=6458MB
+epoch 0169, loss = 0.43566 (arap: 0.11132, reg: 0.19385, geo: 0.13048), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.3311, device='cuda:0')
+epoch 0170, loss = 0.40768 (arap: 0.10716, reg: 0.17280, geo: 0.12772), reserved memory=6458MB
+epoch 0171, loss = 0.40079 (arap: 0.10630, reg: 0.16903, geo: 0.12546), reserved memory=6458MB
+epoch 0172, loss = 0.39895 (arap: 0.10582, reg: 0.16714, geo: 0.12599), reserved memory=6458MB
+epoch 0173, loss = 0.41026 (arap: 0.10740, reg: 0.17518, geo: 0.12769), reserved memory=6458MB
+epoch 0174, loss = 0.40797 (arap: 0.10776, reg: 0.17324, geo: 0.12696), reserved memory=6458MB
+Validation loss =  tensor(0.3119, device='cuda:0')
+epoch 0175, loss = 0.39357 (arap: 0.10496, reg: 0.16310, geo: 0.12551), reserved memory=6458MB
+epoch 0176, loss = 0.39977 (arap: 0.10533, reg: 0.16932, geo: 0.12513), reserved memory=6458MB
+epoch 0177, loss = 0.39011 (arap: 0.10393, reg: 0.16253, geo: 0.12365), reserved memory=6458MB
+epoch 0178, loss = 0.39044 (arap: 0.10404, reg: 0.16227, geo: 0.12413), reserved memory=6458MB
+epoch 0179, loss = 0.40087 (arap: 0.10551, reg: 0.16992, geo: 0.12544), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.2603, device='cuda:0')
+epoch 0180, loss = 0.43082 (arap: 0.10937, reg: 0.19315, geo: 0.12830), reserved memory=6458MB
+epoch 0181, loss = 0.39924 (arap: 0.10568, reg: 0.16713, geo: 0.12642), reserved memory=6458MB
+epoch 0182, loss = 0.38781 (arap: 0.10320, reg: 0.16080, geo: 0.12381), reserved memory=6458MB
+epoch 0183, loss = 0.38582 (arap: 0.10318, reg: 0.15949, geo: 0.12315), reserved memory=6458MB
+epoch 0184, loss = 0.37658 (arap: 0.10184, reg: 0.15204, geo: 0.12270), reserved memory=6458MB
+Validation loss =  tensor(0.2758, device='cuda:0')
+epoch 0185, loss = 0.38225 (arap: 0.10243, reg: 0.15745, geo: 0.12237), reserved memory=6458MB
+epoch 0186, loss = 0.38042 (arap: 0.10270, reg: 0.15619, geo: 0.12153), reserved memory=6458MB
+epoch 0187, loss = 0.37665 (arap: 0.10186, reg: 0.15276, geo: 0.12203), reserved memory=6458MB
+epoch 0188, loss = 0.39054 (arap: 0.10366, reg: 0.16346, geo: 0.12343), reserved memory=6458MB
+epoch 0189, loss = 0.47356 (arap: 0.11332, reg: 0.22219, geo: 0.13805), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.3386, device='cuda:0')
+epoch 0190, loss = 0.39574 (arap: 0.10452, reg: 0.16546, geo: 0.12576), reserved memory=6458MB
+epoch 0191, loss = 0.39483 (arap: 0.10403, reg: 0.16621, geo: 0.12458), reserved memory=6458MB
+epoch 0192, loss = 0.41181 (arap: 0.10560, reg: 0.17946, geo: 0.12676), reserved memory=6458MB
+epoch 0193, loss = 0.38845 (arap: 0.10326, reg: 0.16140, geo: 0.12379), reserved memory=6458MB
+epoch 0194, loss = 0.42023 (arap: 0.10678, reg: 0.18452, geo: 0.12893), reserved memory=6458MB
+Validation loss =  tensor(0.2785, device='cuda:0')
+epoch 0195, loss = 0.38268 (arap: 0.10185, reg: 0.15793, geo: 0.12291), reserved memory=6458MB
+epoch 0196, loss = 0.37626 (arap: 0.10113, reg: 0.15290, geo: 0.12223), reserved memory=6458MB
+epoch 0197, loss = 0.37523 (arap: 0.10132, reg: 0.15321, geo: 0.12070), reserved memory=6458MB
+epoch 0198, loss = 0.35991 (arap: 0.09836, reg: 0.14237, geo: 0.11919), reserved memory=6458MB
+epoch 0199, loss = 0.37807 (arap: 0.10150, reg: 0.15514, geo: 0.12143), reserved memory=6458MB
+Checkpoint path:  /usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/checkpoint/2022_06_02__11_11_02
+Validation loss =  tensor(0.2618, device='cuda:0')
+epoch 0200, loss = 0.37272 (arap: 0.10015, reg: 0.15227, geo: 0.12030), reserved memory=6458MB

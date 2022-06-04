@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-27-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-27T13:05:47.175145",
+    "startedAt": "2022-05-27T13:05:45.226399",
+    "docker": null,
+    "gpu": "NVIDIA TITAN X (Pascal)",
+    "gpu_count": 1,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/usr/stud/srinivaa/code/neuromorph/main_train.py",
+    "codePath": "main_train.py",
+    "git": {
+        "remote": "https://github.com/Aditya-tumcse/neuromorph.git",
+        "commit": "2c490febbfdcc4eff1dc3c5bd6ce6141b8f9fb17"
+    },
+    "email": null,
+    "root": "/usr/stud/srinivaa/code/neuromorph",
+    "host": "node2",
+    "username": "srinivaa",
+    "executable": "/usr/stud/srinivaa/anaconda3/envs/neuromorph/bin/python3"
+}

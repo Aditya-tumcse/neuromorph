@@ -8,7 +8,7 @@ from utils.arap_interpolation import *
 from data.data import *
 from model.layers import *
 import wandb
-
+import os
 
 class NetParam(ParamBase):
     """Base class for hyperparameters of interpolation methods"""
@@ -18,7 +18,7 @@ class NetParam(ParamBase):
         self.lr = 1e-4
         self.num_it = 600
         self.batch_size = 8
-        self.num_timesteps = 0
+        self.num_timesteps = 1
         self.hidden_dim = 128
         self.lambd = 1
         self.lambd_geo = 50
@@ -96,6 +96,11 @@ class InterpolationModGeoEC(InterpolationModBase):
 
         point_pred_arr = shape_x.vert.unsqueeze(0) + displacement * timesteps
         point_pred_arr = point_pred_arr.permute([1, 2, 0])
+        number_of_files = len(os.listdir("/usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/results_02062022/" + shape_x.category + "/")) #Get the number of files in the particular folder
+        
+        #Save the interpolated shapes into their respective categories
+        np.savez("/usr/stud/srinivaa/storage/slurm/neuromorph/SMAL_aligned/results_02062022/" + shape_x.category + "/" + str(number_of_files) + ".npz",point_pred_arr.cpu().detach().numpy())
+
         return point_pred_arr
 
     def compute_loss(self, shape_x, shape_y, point_pred_arr, n_normalize=201.0):
@@ -200,7 +205,7 @@ class InterpolNet:
     def train(self):
         print("start training ...")
 
-        wandb.init(project="Neuromorph_SMAL_aligned") #Initialize a new wandb run
+        wandb.init(project="Neuromorph_SMAL_aligned_reduced_time_steps") #Initialize a new wandb run
 
         self.interp_module.train()
 
@@ -296,7 +301,7 @@ class InterpolNet:
 
         if compute_val_loss:
             print("Validation loss = ", tot_loss_val)
-            #wandb.log({"Validation_Loss": tot_loss_val}) #Log the validation loss into wandb
+            wandb.log({"Validation_Loss": tot_loss_val}) #Log the validation loss into wandb
 
         return shape_x_out, shape_y_out, points_out
 
@@ -385,11 +390,14 @@ class SettingsFaust(SettingsBase):
         if i_epoch < self.increase_thresh:  # 0 - 300
             return
         elif i_epoch < self.increase_thresh * 1.5:  # 300 - 450
-            num_t = 1
-        elif i_epoch < self.increase_thresh * 1.75:  # 450 - 525
             num_t = 3
-        else:  # > 525
+            #num_t = 13
+        elif i_epoch < self.increase_thresh * 1.75:  # 450 - 525
             num_t = 7
+            #num_t = 17
+        else:  # > 525
+            num_t = 15
+            #num_t = 20
 
         interp_module.param.num_timesteps = num_t
         print("Set the # of timesteps to ", num_t)
